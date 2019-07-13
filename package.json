@@ -1,0 +1,21 @@
+{
+    "name": "syntax-highlight",
+    "displayName": "SyntaxHighlightTheme",
+    "description": "syntax highlight theme for many languages",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "peaceshi",
+                "uiTheme": "vs-dark",
+                "path": "./themes/peaceshi-color-theme.json"
+            }
+        ]
+    }
+}
