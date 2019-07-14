@@ -3,7 +3,7 @@
     "displayName": "Syntax Highlight Theme",
     "description": "Syntax highlight theme for cpp and many languages(working)",
     "icon": "icon.png",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": {
         "name": "peaceshi"
       },
