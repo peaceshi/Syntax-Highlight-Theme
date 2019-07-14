@@ -1,20 +1,42 @@
 {
     "name": "syntax-highlight",
-    "displayName": "SyntaxHighlightTheme",
-    "description": "syntax highlight theme for many languages",
+    "displayName": "Syntax Highlight Theme",
+    "description": "Syntax highlight theme for cpp and many languages(working)",
+    "icon": "icon.png",
     "version": "0.0.1",
+    "author": {
+        "name": "peaceshi"
+      },
+    "publisher": "peaceshi",
     "engines": {
-        "vscode": "^1.36.0"
+        "vscode": "^1.0.0"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "c++",
+        "cpp",
+        "color",
+        "colour",
+        "coloring",
+        "highlight",
+        "highlighting",
+        "peaceshi",
+        "syntax",
+        "textmate",
+        "theme"
+      ],
+      "repository": {
+        "url": "https://github.com/peaceshi/Syntax-highlight-Theme",
+        "type": "git"
+      },
     "contributes": {
         "themes": [
             {
                 "label": "peaceshi",
                 "uiTheme": "vs-dark",
-                "path": "./themes/peaceshi-color-theme.json"
+                "path": "./themes/syntax-material-dark-color-theme.json"
             }
         ]
     }

@@ -1,11 +1,15 @@
 {
-	"name": "peaceshi",
+	"name": "peaceshi-syntax-material-dark",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
-		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.background": "#1e1e1e",
+		"editor.foreground": "#d4d4d4",
+        "editorLineNumber.activeForeground": "#f1610d",
+		"editorLineNumber.foreground": "#0085ad",
+		"statusBarItem.remoteBackground": "#16825d",
+		"statusBarItem.remoteForeground": "#ffffff",
+		"sideBarTitle.foreground": "#bbbbbb",
 	},
 	"tokenColors": [
 		{
@@ -26,7 +30,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#ce9178"
 			}
 		},
 		{
@@ -159,7 +163,7 @@
 				"entity.name",
 				"support.type",
 				"support.class",
-				"support.orther.namespace.use.php",
+				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
@@ -236,7 +240,8 @@
 		{
 			"name": "Attributes",
 			"scope": [
-				"entity.other.attribute-name"
+				"entity.other.attribute-name",
+				"entity.other.attribute"
 			],
 			"settings": {
 				"foreground": "#C792EA"
