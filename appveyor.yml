@@ -5,8 +5,6 @@ os: Visual Studio 2017
 platform:
     - x64
 
-environment:
-
 skip_tags: false
 
 init:
@@ -15,8 +13,6 @@ init:
 install:
     - npm install -g vsce 
 
-before_build:
-    
 build_script:
     - vsce package
     - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
