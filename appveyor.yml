@@ -14,7 +14,7 @@ init:
 
 install:
     - npm install -g vsce 
-    
+
 before_build:
     
 build_script:
@@ -30,6 +30,6 @@ deploy:
       auth_token:
         secure: b7z/bl9MpzzCY+CYah15JF9aJbut5gtIWcpiZOoZpVc41W7NmKOOeB40RO7HiiK/
       draft: false
-      tag: %APPVEYOR_REPO_TAG_NAME%
+      tag: APPVEYOR_REPO_TAG_NAME
       on:  
         APPVEYOR_REPO_TAG: true
