@@ -1,0 +1,35 @@
+version: 'syntax-highlight-theme.{build}'
+
+os: Visual Studio 2017
+
+platform:
+    - x64
+
+environment:
+
+skip_tags: false
+
+init:
+    - npm --version
+
+install:
+    - npm install -g vsce 
+    
+before_build:
+    
+build_script:
+    - vsce package
+    - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
+
+after_build:
+    - appveyor PushArtifact *.vsix
+  
+deploy:
+    - provider: GitHub
+      description: 'syntax-highlight-theme' 
+      auth_token:
+        secure: b7z/bl9MpzzCY+CYah15JF9aJbut5gtIWcpiZOoZpVc41W7NmKOOeB40RO7HiiK/
+      draft: false
+      tag: %APPVEYOR_REPO_TAG_NAME%
+      on:  
+        APPVEYOR_REPO_TAG: true
