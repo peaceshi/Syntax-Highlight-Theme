@@ -4,7 +4,11 @@
 This is theme highlight supports, not parsers.   
 You need to install [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax) for cpp and its supports.  
 Then use this theme , enjoy!  
+## What's new ?
+See [ChangeLog](https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/CHANGELOG.md)  
+
 Github: [Syntax-highlight-Theme](https://github.com/peaceshi/Syntax-highlight-Theme)
-## C++
+## Snapshot
+### C++
 ![avatar](./snapshot/01.png)
 ![avatar](./snapshot/02.png)
