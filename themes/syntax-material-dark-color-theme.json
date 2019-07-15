@@ -24,6 +24,16 @@
 			}
 		},
 		{
+			"name": "Arguments",
+			"scope": [
+				"meta.function-call.arguments",
+				"variable.parameter.function"
+			],
+			"settings": {
+				"foreground": "#d4d4d4ff"
+			}
+		},
+		{
 			"name": "Variables",
 			"scope": [
 				"variable",
@@ -57,7 +67,8 @@
 			"scope": [
 				"keyword",
 				"storage.type",
-				"storage.modifier"
+				"storage.modifier",
+				"keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -135,7 +146,6 @@
 				"constant.character",
 				"constant.escape",
 				"variable.parameter",
-				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
