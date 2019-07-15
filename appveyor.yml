@@ -15,18 +15,6 @@ install:
 
 build_script:
     - vsce package
-    - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
 
 after_build:
-    - 7z a %APPVEYOR_REPO_TAG_NAME%.7z ./*.vsix
-    - appveyor PushArtifact %APPVEYOR_REPO_TAG_NAME%.7z
-  
-deploy:
-    - provider: GitHub
-      description: 'syntax-highlight-theme' 
-      auth_token:
-        secure: b7z/bl9MpzzCY+CYah15JF9aJbut5gtIWcpiZOoZpVc41W7NmKOOeB40RO7HiiK/
-      draft: false
-      tag: APPVEYOR_REPO_TAG_NAME
-      on:  
-        APPVEYOR_REPO_TAG: true
+    - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
