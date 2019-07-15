@@ -1,27 +1,29 @@
 {
+    "icon": "icon.png",
+    "version": "0.0.4",
+    "publisher": "peaceshi",
     "name": "syntax-highlight",
     "displayName": "Syntax Highlight Theme",
     "description": "Syntax highlight theme for cpp and many languages(working)",
-    "icon": "icon.png",
-    "version": "0.0.3",
-    "author": {
-        "name": "peaceshi"
-      },
-    "publisher": "peaceshi",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
     "categories": [
         "Themes"
     ],
+    "author": {
+        "name": "peaceshi"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
     "keywords": [
         "c++",
         "cpp",
         "color",
         "colour",
         "coloring",
+        "dark",
         "highlight",
         "highlighting",
+        "material",
         "peaceshi",
         "syntax",
         "textmate",
