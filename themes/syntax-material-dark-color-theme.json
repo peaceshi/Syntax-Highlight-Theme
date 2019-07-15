@@ -451,13 +451,13 @@
 				"punctuation.definition.list_item.markdown"
 			],
 			"settings": {
-				"foreground": "#EEFFFF"
+				"foreground": "#d4d4d4ff"
 			}
 		},
 		{
 			"name": "Markdown - Markup Raw Inline",
 			"scope": [
-				"text.html.markdown markup.inline.raw.markdown"
+				"text.html.markdown markup.inline.raw"
 			],
 			"settings": {
 				"foreground": "#C792EA"
@@ -466,10 +466,10 @@
 		{
 			"name": "Markdown - Markup Raw Inline Punctuation",
 			"scope": [
-				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
+				"text.html.markdown markup.inline.raw punctuation.definition.raw"
 			],
 			"settings": {
-				"foreground": "#65737E"
+				"foreground": "#C3E88D"
 			}
 		},
 		{
@@ -477,7 +477,7 @@
 			"scope": [
 				"markdown.heading",
 				"markup.heading | markup.heading entity.name",
-				"markup.heading.markdown punctuation.definition.heading.markdown"
+				"markup.heading punctuation.definition.heading"
 			],
 			"settings": {
 				"foreground": "#C3E88D"
@@ -532,7 +532,7 @@
 		{
 			"name": "Markdown - Blockquote",
 			"scope": [
-				"markup.quote punctuation.definition.blockquote.markdown"
+				"markup.quote punctuation.definition.blockquote"
 			],
 			"settings": {
 				"foreground": "#65737E"
