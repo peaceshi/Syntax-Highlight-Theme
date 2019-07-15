@@ -18,7 +18,8 @@ build_script:
     - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
 
 after_build:
-    - appveyor PushArtifact *.vsix
+    - 7z a %APPVEYOR_REPO_TAG_NAME%.7z ./*.vsix
+    - appveyor PushArtifact %APPVEYOR_REPO_TAG_NAME%.7z
   
 deploy:
     - provider: GitHub
