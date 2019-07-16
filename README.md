@@ -1,6 +1,15 @@
 # Syntax Highlight Theme
 
-[![version](https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&logo=visual-studio-code&label=marketplace&color=007ACC)](https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight) [![Build status](https://ci.appveyor.com/api/projects/status/m15u4kn724sjli1j?svg=true)](https://ci.appveyor.com/project/peaceshi/syntax-highlight-theme)  
+[![version][marketplace-image]][marketplace-image] [![Build status][appveyor-image]][appveyor-url] [![GitHub][GitHub-image]][GitHub-url] [![license][license-image]][license-url]
+
+[marketplace-image]:https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&logo=visual-studio-code&label=marketplace&color=007ACC
+[marketplace-url]:https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight
+[appveyor-image]:https://img.shields.io/appveyor/ci/peaceshi/syntax-highlight-theme.svg?style=flat&logo=appveyor
+[appveyor-url]:https://ci.appveyor.com/project/peaceshi/syntax-highlight-theme
+[GitHub-image]:https://img.shields.io/badge/GitHub-issues-red.svg
+[GitHub-url]:https://github.com/peaceshi/Syntax-highlight-Theme/issues
+[license-image]:https://img.shields.io/github/license/peaceshi/Syntax-highlight-Theme.svg
+[license-url]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/LICENSE
 
 ## About Syntax Highlight Theme
 
@@ -12,18 +21,12 @@ Then use this theme , enjoy!
 
 See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/CHANGELOG.md)  
 
-Github: [Syntax-highlight-Theme](https://github.com/peaceshi/Syntax-highlight-Theme)
-
 ## Snapshot
 
-### C++
-
-|              A               |              B               |
+|             C++              |                              |
 | :--------------------------: | :--------------------------: |
 | ![01.png](./snapshot/01.png) | ![02.png](./snapshot/02.png) |
-
-### C
-
-|              A               |
-| :--------------------------: |
-| ![03.png](./snapshot/03.png) |
+|              C               |           Markdown           |
+| ![03.png](./snapshot/03.png) | ![04.png](./snapshot/04.png) |
+|            Python            |                              |
+| ![05.png](./snapshot/05.png) | ![06.png](./snapshot/06.png) |
