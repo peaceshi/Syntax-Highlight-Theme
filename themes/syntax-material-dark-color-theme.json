@@ -34,6 +34,15 @@
 			}
 		},
 		{
+			"name": "Arguments Supported",
+			"scope": [
+				"variable.parameter.function.lua"
+			],
+			"settings": {
+				"foreground": "#ce9178"
+			}
+		},
+		{
 			"name": "Arguments Special",
 			"scope": [
 				"variable.parameter.function.language.special"
