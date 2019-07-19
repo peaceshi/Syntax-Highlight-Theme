@@ -20,6 +20,16 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 [#F78C6C]:https://img.shields.io/badge/-%23F78C6C-F78C6C.svg  
 [#FF5370]:https://img.shields.io/badge/-%23FF5370-FF5370.svg  
 
+## [0.0.6] - 2019-07-19
+
+### Added
+
+- Lua support.  
+
+### Fixed
+
+- set highlight : `variable.parameter.function.lua` ![#ce9178][#ce9178] for better looking, but vscode parser doesn't support this correctly now.  
+
 ## [0.0.5] - 2019-07-16
 
 ### Added

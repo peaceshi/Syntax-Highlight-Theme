@@ -15,6 +15,7 @@
 
 This is theme highlight supports, not parsers.  
 You need to install [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax) for cpp and its supports.  
+You need to install [lua-language-server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) for lua support.  
 Then use this theme , enjoy!  
 
 ## What's new
@@ -30,3 +31,5 @@ See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/C
 | ![03.png](./snapshot/03.png) | ![04.png](./snapshot/04.png) |
 |          **Python**          |                              |
 | ![05.png](./snapshot/05.png) | ![06.png](./snapshot/06.png) |
+|           **Lua**            |
+| ![07.png](./snapshot/07.png) |
