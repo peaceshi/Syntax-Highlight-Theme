@@ -1,6 +1,6 @@
 # Syntax Highlight Theme
 
-[![version][marketplace-image]][marketplace-image] [![Build status][appveyor-image]][appveyor-url] [![GitHub][GitHub-image]][GitHub-url] [![license][license-image]][license-url]
+[![version][marketplace-image]][marketplace-url] [![Build status][appveyor-image]][appveyor-url] [![GitHub][GitHub-image]][GitHub-url] [![license][license-image]][license-url]
 
 [marketplace-image]:https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&logo=visual-studio-code&label=marketplace&color=007ACC
 [marketplace-url]:https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight
@@ -23,10 +23,10 @@ See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/C
 
 ## Snapshot
 
-|             C++              |                              |
+|           **C++**            |                              |
 | :--------------------------: | :--------------------------: |
 | ![01.png](./snapshot/01.png) | ![02.png](./snapshot/02.png) |
-|              C               |           Markdown           |
+|            **C**             |         **Markdown**         |
 | ![03.png](./snapshot/03.png) | ![04.png](./snapshot/04.png) |
-|            Python            |                              |
+|          **Python**          |                              |
 | ![05.png](./snapshot/05.png) | ![06.png](./snapshot/06.png) |
