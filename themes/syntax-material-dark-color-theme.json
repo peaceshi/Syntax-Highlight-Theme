@@ -27,7 +27,9 @@
 			"name": "Arguments",
 			"scope": [
 				"meta.function-call.arguments",
-				"variable.parameter.function"
+				"variable.parameter.function",
+				"source.cpp variable",
+				"source.c variable"
 			],
 			"settings": {
 				"foreground": "#d4d4d4ff"
@@ -55,7 +57,8 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"variable.other.enummember",
 			],
 			"settings": {
 				"foreground": "#ce9178"
@@ -195,7 +198,8 @@
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
-				"support.type.sys-types"
+				"support.type.sys-types",
+				"meta.tail.enum"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
@@ -396,7 +400,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#ffcb6b"
 			}
 		},
 		{
