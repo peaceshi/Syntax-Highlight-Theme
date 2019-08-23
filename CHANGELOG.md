@@ -18,7 +18,19 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 [#d4d4d4ff]:https://img.shields.io/badge/-%23d4d4d4ff-d4d4d4.svg  
 [#EEFFFF]:https://img.shields.io/badge/-%23EEFFFF-EEFFFF.svg  
 [#F78C6C]:https://img.shields.io/badge/-%23F78C6C-F78C6C.svg  
-[#FF5370]:https://img.shields.io/badge/-%23FF5370-FF5370.svg  
+[#FF5370]:https://img.shields.io/badge/-%23FF5370-FF5370.svg 
+
+[#FFCB6B]:https://img.shields.io/badge/-%23FFCB6B-FFCB6B.svg
+
+## [0.0.7] - 2019-08-23
+
+### Fixed
+
+- `ms-vscode.cpptools` : `enhancedColorization` compatibility.  
+
+  - set highlight : `source.cpp variable` `source.c variable` ![#d4d4d4ff][#d4d4d4ff] , recognizable for all variables ,because of vsc parser issues.  
+  - set highlight : `variable.other.enummember` ![#ce9178][#ce9178] for better looking and color harmony.  
+  - set highlight : `meta.tail.enum` ![#FFCB6B][#FFCB6B] ,make sure behavioral consistency.
 
 ## [0.0.6] - 2019-07-19
 
