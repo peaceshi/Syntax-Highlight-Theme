@@ -1,6 +1,6 @@
 {
     "icon": "icon.png",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "publisher": "peaceshi",
     "name": "syntax-highlight",
     "displayName": "Syntax Highlight Theme",
@@ -28,18 +28,16 @@
         "syntax",
         "textmate",
         "theme"
-      ],
-      "repository": {
+    ],
+    "repository": {
         "url": "https://github.com/peaceshi/Syntax-highlight-Theme",
         "type": "git"
-      },
+    },
     "contributes": {
-        "themes": [
-            {
-                "label": "peaceshi",
-                "uiTheme": "vs-dark",
-                "path": "./themes/syntax-material-dark-color-theme.json"
-            }
-        ]
+        "themes": [{
+            "label": "peaceshi",
+            "uiTheme": "vs-dark",
+            "path": "./themes/syntax-material-dark-color-theme.json"
+        }]
     }
 }
