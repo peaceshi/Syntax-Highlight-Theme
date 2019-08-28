@@ -5,3 +5,4 @@ snapshot/**
 .gitattributes
 .gitignore
 appveyor.yml
+node_modules/**

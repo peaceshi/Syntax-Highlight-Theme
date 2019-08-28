@@ -13,6 +13,15 @@
             "args": [
                 "--extensionDevelopmentPath=${workspaceFolder}"
             ]
+		},
+		{
+            "name": "Typescript",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector"
         }
     ]
 }
