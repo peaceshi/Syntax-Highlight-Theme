@@ -8,10 +8,9 @@ jobs:
   install:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@dev
-
+    - uses: actions/checkout@v1
     - name: install vsce
-      run: npm install -g vsce
+      run: npm install vsce
       
     - name: vsce package
       run: vsce package
