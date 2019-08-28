@@ -1,0 +1,17 @@
+name: build
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  install:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@dev
+
+    - name: install vsce
+      run: npm install -g vsce
+      
+    - name: vsce package
+      run: vsce package
