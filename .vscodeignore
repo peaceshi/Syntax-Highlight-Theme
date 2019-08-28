@@ -7,3 +7,4 @@ snapshot/**
 .github/**
 appveyor.yml
 node_modules/**
+tools/**
