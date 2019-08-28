@@ -4,5 +4,6 @@ snapshot/**
 .editorconfig
 .gitattributes
 .gitignore
+.github/**
 appveyor.yml
 node_modules/**
