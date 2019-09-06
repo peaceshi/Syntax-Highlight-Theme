@@ -17,7 +17,7 @@ export class Stack<T>{
 	/**
 	 * returns the number of element
 	 */
-	public size = () => this.element.length - 1;
+	public size = () => this.element.length;
 	/**
 	 * inserts element at the end
 	 */
