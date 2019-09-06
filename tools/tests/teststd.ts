@@ -55,8 +55,8 @@ testQueue(test2, "emplace", "6f7g");
 
 test1.emplace(test1, 4, "d", "e", 5);
 
-let test4 = new std.Stack(123123, "AS");
-test4.emplace(test4, 123, "bc")
+let test4 = new std.Stack();
+test4.emplace(test4, 123123, "AS",123, "bc")
 testStack(test4, "emplace", "bc 123 AS 123123");
 
 let test5 = new std.Deque();
