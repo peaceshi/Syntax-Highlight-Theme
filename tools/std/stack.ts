@@ -7,17 +7,17 @@
  */
 export class Stack<T>{
 	protected element: T[] = null;
-	public constructor(elements?:any,...rest:any[]) {
-		this.element = new Array<T>().concat(elements,...rest);
+	public constructor(elements?: any, ...rest: any[]) {
+		this.element = new Array<T>().concat(elements, ...rest);
 	}
 	/**
 	 * checks whether the underlying container is empty
 	 */
-	public empty = () =>this.element.length == 0;
+	public empty = () => this.element.length == 0;
 	/**
 	 * returns the number of element
 	 */
-	public size = () => this.element.length;
+	public size = () => this.element.length - 1;
 	/**
 	 * inserts element at the end
 	 */
