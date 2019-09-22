@@ -15,8 +15,8 @@
  */
 export class Queue<T>{
 	protected element: T[] = null;
-	public constructor(elements?:any,...rest:any[]) {
-		this.element = new Array<T>().concat(elements,...rest);
+	public constructor() {
+		this.element = new Array<T>();
 	}
 	
 	/**

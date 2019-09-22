@@ -7,8 +7,8 @@
  */
 export class Deque<T>{
 	protected element: T[] = null;
-	public constructor(elements?: any, ...rest: any[]) {
-		this.element = new Array<T>().concat(elements, ...rest);
+	public constructor() {
+		this.element = new Array<T>();
 	}
 	/**
 	 * assigns values to the container
