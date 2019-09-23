@@ -4,7 +4,7 @@
 
 [marketplace-image]:https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&logo=visual-studio-code&label=marketplace&color=007ACC
 [marketplace-url]:https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight
-[appveyor-image]:https://img.shields.io/appveyor/ci/peaceshi/syntax-highlight-theme.svg?style=flat&logo=appveyor
+[appveyor-image]:https://img.shields.io/appveyor/ci/peaceshi/syntax-highlight-theme.svg?style=flat&logo=appveyor&label=master
 [appveyor-url]:https://ci.appveyor.com/project/peaceshi/syntax-highlight-theme/master
 [GitHub-image]:https://img.shields.io/badge/GitHub-issues-red.svg
 [GitHub-url]:https://github.com/peaceshi/Syntax-highlight-Theme/issues
