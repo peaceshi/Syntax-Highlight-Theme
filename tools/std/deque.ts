@@ -1,4 +1,12 @@
 /**
+ *  TypeScript standard library (C++ design)
+ * 
+ *  Author : PeaceShi
+ * 
+ *  design by C++, but code not cpp-like.
+ */
+
+/**
  * std.deque()
  * 
  * double-ended queue implement used Array.
