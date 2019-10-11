@@ -50,15 +50,25 @@ export let mainPath = {
 	extensionPath: extensionPath
 }
 /**
- * fetch all files with pattern path
+ * write scopes to file
+ * 
+ * @param file the file want to write
+ * @param data scopes data
+ */
+export let writeStream = (file: string, data: string|string[])=> {
+	let wStream = fs.createWriteStream(file);
+	wStream.write(data,'UTF8');
+}
+/**
+ * fetch all files using pattern path
  * 
  * copy can not be file to dir because of fs-extra module bug.
  */
-export async function fetchFiles(){
-	glob(pattern, async function (_err, files) {
-		try {
-		await copy(files, mainPath.rootPath.concat("/templates/"));
-		} catch (err) {
+export async function fetchFiles() {
+	glob(pattern, async function (err, files) {
+		if (!err) {
+			await copy(files, mainPath.rootPath.concat("/templates/"));
+		} else {
 			console.log(err);
 		}
 	})
