@@ -1,0 +1,1 @@
+punctuation.definition.block.tag.jsdoc,storage.type.class.jsdoc
