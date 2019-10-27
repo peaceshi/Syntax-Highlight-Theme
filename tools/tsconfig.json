@@ -3,6 +3,7 @@
         "module": "commonjs",
         "target": "es2020",
         "noImplicitAny": true,
-        "sourceMap": true
+		"sourceMap": false,
+		"declaration": true,
     }
 }
