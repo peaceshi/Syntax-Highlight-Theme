@@ -1,5 +1,5 @@
 {
-    "name": "syntax-highlight-theme",
+    "name": "syntax-highlight",
     "displayName": "%displayName%",
     "description": "%description%",
     "categories": [
@@ -16,22 +16,18 @@
         "name": "peaceshi"
     },
     "contributes": {
-        "themes": [
-            {
-                "id": "Syntax Material Dark",
-                "label": "Syntax Material Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/dark_material.json"
-            }
-        ]
+        "themes": [{
+            "id": "Syntax Material Dark",
+            "label": "Syntax Material Dark",
+            "uiTheme": "vs-dark",
+            "path": "./themes/dark_material.json"
+        }]
     },
-    "iconThemes": [
-        {
-            "id": "",
-            "label": "",
-            "path": ""
-        }
-    ],
+    "iconThemes": [{
+        "id": "",
+        "label": "",
+        "path": ""
+    }],
     "keywords": [
         "c++",
         "cpp",
