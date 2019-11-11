@@ -1,0 +1,16 @@
+name: build
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: install vsce
+      run: npm install vsce
+      
+    - name: vsce package
+      run: vsce package

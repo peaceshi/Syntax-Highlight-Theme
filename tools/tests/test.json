@@ -1,0 +1,15 @@
+{
+    "name": "peaceshi-syntax-material-dark",
+    "colors": {
+        "activityBarBadge.background": "#007acc"
+    },
+    "tokenColors": [{
+        "name": "Comment",
+        "scope": [
+            "comment"
+        ],
+        "settings": {
+            "fontStyle": "italic"
+        }
+    }]
+}

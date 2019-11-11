@@ -1,0 +1,1 @@
+Git,Message,Rebase,comment.line.number-sign.git-rebase,constant.sha.git-rebase,meta.commit-command.git-rebase,meta.commit-message.git-rebase,punctuation.definition.comment.git-rebase,support.function.git-rebase

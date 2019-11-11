@@ -1,7 +1,12 @@
-.vscode/**
-.vscode-test/**
-snapshot/**
 .editorconfig
 .gitattributes
 .gitignore
+.github/**
+.vscode/**
+.vscode-test/**
 appveyor.yml
+language_tags/**
+node_modules/**
+snapshot/**
+templates/**
+tools/**
