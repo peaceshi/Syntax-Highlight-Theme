@@ -8,8 +8,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### What I want  
 
-- Add more language support. Need your help.  
+- Add more language support. maybe release soon.  
 - Make sure behavioral consistency for supported languages.  
+- Make a general file to support most languages. See `/language_tags/`
 
 [#65737E]:https://img.shields.io/badge/-%2365737E-65737E.svg  
 [#C3E88D]:https://img.shields.io/badge/-%23C3E88D-C3E88D.svg  
@@ -21,6 +22,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 [#FF5370]:https://img.shields.io/badge/-%23FF5370-FF5370.svg  
 [#FFCB6B]:https://img.shields.io/badge/-%23FFCB6B-FFCB6B.svg  
 
+## [0.0.8] - 2019-11-11  
+
+### Changed  
+
+- no feature update. rewrite some files.
+- a new version with most language support(vsc official supports) will release soon.
+  
 ## [0.0.7] - 2019-08-23  
 
 ### Fixed  

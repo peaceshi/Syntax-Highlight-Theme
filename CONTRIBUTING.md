@@ -20,3 +20,7 @@ just tell me what you want to add.
 ## More
 
 wiki:[Tutorial](https://github.com/git-lfs/git-lfs/wiki/Tutorial)
+
+## How to build languages_tags by yourself  
+
+- just see files in `/tools`.
