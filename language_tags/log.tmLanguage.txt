@@ -1,1 +1,1 @@
-Log,comment,constant.language,emphasis,file,log.constant,log.date,log.debug,log.error,log.exception,log.exceptiontype,log.info,log.string,log.warning,markup.changed,markup.deleted,markup.inserted,string,string.key,,string.regexp,,strong
+Log,comment,constant.language,emphasis,file,log.constant,log.date,log.debug,log.error,log.exception,log.exceptiontype,log.info,log.string,log.verbose,log.warning,markup.changed,markup.deleted,markup.inserted,string,string.key,,string.regexp,,strong
