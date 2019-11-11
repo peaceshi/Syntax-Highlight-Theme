@@ -1,0 +1,5 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Common Base Scopes",
+    "include": "./dark_defaults.json",
+}

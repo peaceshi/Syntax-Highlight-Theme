@@ -1,0 +1,5 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Language Specific Scopes",
+    "include": "./common_base.json",
+}
