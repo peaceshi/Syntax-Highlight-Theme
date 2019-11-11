@@ -1,19 +1,37 @@
 {
-    "icon": "icon.png",
-    "version": "0.0.7",
-    "publisher": "peaceshi",
-    "name": "syntax-highlight",
-    "displayName": "Syntax Highlight Theme",
-    "description": "Syntax highlight theme for cpp and many languages(working)",
+    "name": "syntax-highlight-theme",
+    "displayName": "%displayName%",
+    "description": "%description%",
     "categories": [
         "Themes"
     ],
+    "version": "0.0.8",
+    "publisher": "peaceshi",
+    "license": "MIT",
+    "engines": {
+        "vscode": "*"
+    },
+    "icon": "icon.png",
     "author": {
         "name": "peaceshi"
     },
-    "engines": {
-        "vscode": "^1.0.0"
+    "contributes": {
+        "themes": [
+            {
+                "id": "Syntax Material Dark",
+                "label": "Syntax Material Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark_material.json"
+            }
+        ]
     },
+    "iconThemes": [
+        {
+            "id": "",
+            "label": "",
+            "path": ""
+        }
+    ],
     "keywords": [
         "c++",
         "cpp",
@@ -30,28 +48,19 @@
         "theme"
     ],
     "repository": {
-        "url": "https://github.com/peaceshi/Syntax-highlight-Theme",
+        "url": "https://github.com/peaceshi/Syntax-Highlight-Theme",
         "type": "git"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "peaceshi",
-                "uiTheme": "vs-dark",
-                "path": "./themes/syntax-material-dark-color-theme.json"
-            }
-        ]
     },
     "dependencies": {
         "@types/fs-extra": "^8.0.1",
         "@types/glob": "^7.1.1",
         "fs-extra": "^8.1.0",
-        "glob": "^7.1.5",
+        "glob": "^7.1.6",
         "jsonc-parser": "^2.2.0"
     },
     "devDependencies": {
-        "@types/node": "^12.11.7",
-        "ts-node": "^8.4.1",
-        "typescript": "^3.6.4"
+        "@types/node": "^12.12.7",
+        "ts-node": "^8.5.0",
+        "typescript": "^3.7.2"
     }
 }
