@@ -15,6 +15,7 @@ init:
     - npm --version
 
 install:
+    - npm update
     - npm install -g vsce 
 
 build_script:
