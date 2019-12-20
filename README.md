@@ -13,11 +13,19 @@
 
 ## About Syntax Highlight Theme
 
-This is theme highlight supports, not parsers.  
-You need to install [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax) for cpp and its supports.  
-You need to install [lua-language-server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) for lua support.  
-You need to install Microsoft [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) ,then set `"C_Cpp.enhancedColorization": "Enabled",` and `IntelliSense enabled` to use [Enhanced colorization](https://code.visualstudio.com/docs/cpp/colorization-cpp).  
-Then use this theme , enjoy!  
+**For some reason(such as italic and font weights needed), I  recommend using** [Iosevka](https://github.com/be5invis/Iosevka) **or** [Sarasa-Gothic(for CJK)](https://github.com/be5invis/Sarasa-Gothic) **font with this theme.**  
+
+If you do not like italic or weights, just disable it in your settings easily.
+
+This is theme highlight supports, **not** parsers.  
+
+You need to install  
+
+- [Better C++ Syntax](https://marketplace.visualstudio.com/items?itemName=jeff-hykin.better-cpp-syntax) for **cpp** and its supports.  
+- [lua-language-server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua) for **lua** support.  
+- [Microsoft C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) , then set `"C_Cpp.enhancedColorization": "Enabled",` and `IntelliSense enabled` to use [Enhanced colorization](https://code.visualstudio.com/docs/cpp/colorization-cpp).  
+
+Then use this theme, enjoy!  
 
 ## What's new
 
