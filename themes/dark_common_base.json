@@ -1,3 +1,5 @@
+// General Language Scopes file
+// more info : https://macromates.com/manual/en/language_grammars#naming_conventions
 {
     "$schema": "vscode://schemas/color-theme",
     "name": "Common Base Scopes",
