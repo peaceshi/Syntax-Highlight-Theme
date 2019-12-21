@@ -15,6 +15,8 @@
 
 **For some reason(such as italic and font weights needed), I  recommend using** [Iosevka](https://github.com/be5invis/Iosevka) **or** [Sarasa-Gothic(for CJK)](https://github.com/be5invis/Sarasa-Gothic) **font with this theme.**  
 
+**Now you can choose a beta test theme `Syntax Material Dark Level 1 (beta)`. It supports most languages that VSCode supports now.**  
+
 If you do not like italic or weights, just disable it in your settings easily.
 
 This is theme highlight supports, **not** parsers.  
