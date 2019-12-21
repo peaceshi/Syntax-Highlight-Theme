@@ -2,10 +2,6 @@
     "$schema": "vscode://schemas/color-theme",
     "name": "Dark Material",
     "include": "./dark_language_specifics.json",
-    "colors": {
-        "editorLineNumber.activeForeground": "#f1610d",
-		"editorLineNumber.foreground": "#0085ad",
-    },
     "tokenColors": [{
             "name": "Comment",
             "scope": [
