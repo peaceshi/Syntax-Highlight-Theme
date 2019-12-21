@@ -52,7 +52,13 @@
                 "label": "Syntax Material Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/dark_material.json"
-            }
+            },
+            {
+              "id": "Syntax Material Dark Level 1 (beta)",
+              "label": "Syntax Material Dark Level 1 (beta)",
+              "uiTheme": "vs-dark",
+              "path": "./themes/dark_language_specifics.json"
+          }
         ]
     },
     "iconThemes": [
