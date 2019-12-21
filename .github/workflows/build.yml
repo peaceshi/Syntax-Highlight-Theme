@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: install vsce
       run: |
-        npm install
+        npm update
         npm install -g vsce
-        vsce package
+        npx vsce package
         

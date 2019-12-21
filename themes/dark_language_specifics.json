@@ -1,0 +1,157 @@
+// Specifics Language Scopes file
+// This is a beta test version, base on scope statistics
+// This file is the language specific scopes support by vscode, aimed to depth first and accuracy.
+{
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Language Specific Scopes",
+    "include": "./dark_common_base.json",
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": [
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#546E7A"
+            }
+        },
+        {
+            "name": "constant",
+            "scope": [
+                "constant.character.escape"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#C3E88D"
+            }
+        },
+        {
+            "name": "entity class",
+            "scope": [
+                "entity.name.type.class",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#4EC9B0"
+            }
+        },
+        {
+            "name": "function / call",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call.generic",
+                "meta.qualified_type entity.name.type",
+                "entity.name.type.parameter"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#82AAFF"
+            }
+        },
+        {
+            "name": "Function arguments",
+            "scope": [
+                "meta.function-call.arguments",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#B2CCD6"
+            }
+        },
+        {
+            "name": "Function parameters",
+            "scope": [
+                "entity.name.type.template",
+                "meta.declaration.type.alias",
+                "meta.declaration.type.alias meta.parens",
+                "meta.template.definition meta.qualified_type entity.name.type",
+                "meta.template.call meta.qualified_type entity.name.type"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#B2CCD6"
+            }
+        },
+        {
+            "name": "Markup",
+            "scope": [
+                "markup.bold",
+            ],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#f07178"
+            }
+        },
+        {
+            "name": "Markup inline",
+            "scope": [
+                "markup.inline.raw.string",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#C792EA"
+            }
+        },
+        {
+            "name": "Markup underline ",
+            "scope": [
+                "markup.underline.link",
+            ],
+            "settings": {
+                "fontStyle": "underline",
+                "foreground": "#f07178"
+            }
+        },
+        {
+            "name": "Meta",
+            "scope": [
+                "meta.block",
+                "meta.body",
+                "meta.bracket",
+                "meta.paragraph",
+                "meta.parens",
+                "meta.scope",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#d4d4d4"
+            }
+        },
+        {
+            "name": "keyword & storage",
+            "scope": [
+                "keyword.operator",
+                "keyword.other.delete",
+                "storage.modifier.pointer"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#f07178"
+            }
+        },
+        {
+            "name": "Variable language",
+            "scope": [
+                "variable.language",
+                "variable.parameter.function.language.special"
+            ],
+            "settings": {
+                "fontStyle": "italic bold",
+                "foreground": "#FF5370"
+            }
+        },
+        {
+            "name": "Variable property",
+            "scope": [
+                "variable.other.property",
+                "variable.other.object.property"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#B2CCD6"
+            }
+        }
+    ]
+}

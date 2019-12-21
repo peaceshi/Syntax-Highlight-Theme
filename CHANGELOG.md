@@ -2,13 +2,13 @@
 
 All notable changes to the "syntax highlight" extension will be documented in this file.  
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.  
+Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how to structure this file.  
 
 ## [Unreleased]  
 
 ### What I want  
 
-- Add more language support. maybe release soon.  
+- Add more language support. **beta test now!**.  
 - Make sure behavioral consistency for supported languages.  
 - Make a general file to support most languages. See `/language_tags/`
 
@@ -21,6 +21,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 [#F78C6C]:https://img.shields.io/badge/-%23F78C6C-F78C6C.svg  
 [#FF5370]:https://img.shields.io/badge/-%23FF5370-FF5370.svg  
 [#FFCB6B]:https://img.shields.io/badge/-%23FFCB6B-FFCB6B.svg  
+
+## [0.0.9] - 2019-12-21
+
+### Added  
+
+- A new theme  
+**Now you can choose a beta test theme `Syntax Material Dark Level 1 (beta)` directly. It supports most languages that VSCode supports now.**  
+- most languages support(with beta theme)  
+- A tool that generate language scopes.
 
 ## [0.0.8] - 2019-11-11  
 
