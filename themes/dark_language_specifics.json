@@ -75,12 +75,23 @@
             }
         },
         {
-            "name": "Markup",
+            "name": "Markup bold",
             "scope": [
                 "markup.bold",
             ],
             "settings": {
                 "fontStyle": "bold",
+                "foreground": "#f07178"
+            }
+        },
+        {
+            "name": "Markup bold italic",
+            "scope": [
+                "markup.bold markup.italic",
+                "markup.italic markup.bold",
+            ],
+            "settings": {
+                "fontStyle": "bold italic",
                 "foreground": "#f07178"
             }
         },
@@ -95,13 +106,23 @@
             }
         },
         {
+            "name": "Markup italic ",
+            "scope": [
+                "markup.italic",
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#82AAFF"
+            }
+        },
+        {
             "name": "Markup underline ",
             "scope": [
                 "markup.underline.link",
             ],
             "settings": {
                 "fontStyle": "underline",
-                "foreground": "#f07178"
+                "foreground": "#B2CCD6"
             }
         },
         {
