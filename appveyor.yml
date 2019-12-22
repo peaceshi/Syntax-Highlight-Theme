@@ -9,7 +9,7 @@ branches:
   only:
     - master
 
-skip_tags: false
+skip_tags: true
 
 init:
     - npm --version

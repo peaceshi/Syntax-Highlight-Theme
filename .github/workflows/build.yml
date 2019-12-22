@@ -5,13 +5,15 @@ on:
       - dev
 
 jobs:
-  install:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
     - name: install vsce
       run: |
         npm update
         npm install -g vsce
-        npx vsce package
-        
+        npm vsce package
+    env:
+        CI: true
