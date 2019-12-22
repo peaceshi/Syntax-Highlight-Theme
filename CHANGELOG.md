@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD024-->
 # Change Log  
 
 All notable changes to the "syntax highlight" extension will be documented in this file.  
