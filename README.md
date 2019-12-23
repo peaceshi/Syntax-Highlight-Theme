@@ -38,16 +38,16 @@ This is theme highlight supports, **not** parsers now.
 [Reshaper inlay hints]:https://www.jetbrains.com/help/resharper/Inline_Parameter_Name_Hints.html
 [multiple selections]:https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
 
-- TODO
+- **TODO**
   - [ ] Modern code IntelliSense and editor enhancement.  
     - [ ] ![hard] [Reshaper inlay hints].
-    - [ ] ![normal] Hover help in the editor for editor keyboard shortcuts and [multiple selections].
+    - [ ] ![normal] Hover help in the editor for editor keyboard shortcuts and [multiple selections].  
   - [ ] ![Low] make a tool to change theme colors more easily.  
-- Working
+- **Working**
   - [x] ![High] Add more language supports. **Beta test now!**.  
   - [ ] ![Medium]Make sure behavioral consistency for supported languages.
-- Finished
-  - [x] The language scopes general tool.
+- **Finished**
+  - [x] The language scopes generate tool.
     - [x] ![easy] Make a general file to support most languages. See `/language_tags/`
 
 ## Additional install  
