@@ -159,7 +159,7 @@
             "name": "keyword & storage & name",
             "scope": [
                 "keyword.operator",
-                "keyword.other.delete",
+				"keyword.other.delete",
 				"storage.modifier.pointer",
 				"entity.name.tag",
 				"entity.other.attribute-name.id"
@@ -210,6 +210,7 @@
             "scope": [
 				"meta.property-list meta.property-value support.constant",
 				"meta.property-list meta.property-value support.function",
+				"entity.other.attribute.noreturn",
             ],
             "settings": {
                 "fontStyle": "",
