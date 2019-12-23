@@ -30,25 +30,27 @@ This is theme highlight supports, **not** parsers now.
 
 ## Job schedules  
 
-|            |    1    |     2     |    3    |
-| ---------- | :-----: | :-------: | :-----: |
-| Difficulty | ![easy] | ![normal] | ![hard] |
-| Priority   | ![Low]  | ![Medium] | ![High] |
+|     Level      |    1    |     2     |    3    |
+| :------------: | :-----: | :-------: | :-----: |
+| **Difficulty** | ![easy] | ![normal] | ![hard] |
+|  **Priority**  | ![Low]  | ![Medium] | ![High] |
 
 [Reshaper inlay hints]:https://www.jetbrains.com/help/resharper/Inline_Parameter_Name_Hints.html
 [multiple selections]:https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
 
 - **TODO**
   - [ ] Modern code IntelliSense and editor enhancement.  
-    - [ ] ![hard] [Reshaper inlay hints].
-    - [ ] ![normal] Hover help in the editor for editor keyboard shortcuts and [multiple selections].  
-  - [ ] ![Low] make a tool to change theme colors more easily.  
+    - [ ] ![hard] ![High] [Reshaper inlay hints].
+    - [ ] ![normal] ![Medium] Hover help in the editor for editor keyboard shortcuts and [multiple selections].  
+  - [ ] ![normal] ![Low] Make a tool to change theme colors more easily.  
+  - [ ] ![easy] ![Low] Design a new extension icon.
+  - [ ] ![hard] ![Medium] Write documents for this responsory.
 - **Working**
-  - [x] ![High] Add more language supports. **Beta test now!**.  
-  - [ ] ![Medium]Make sure behavioral consistency for supported languages.
+  - [x] ![normal] ![High] Add more language supports. **Beta test now!**.  
+  - [ ] ![hard] ![Medium] Make sure behavioral consistency for supported languages.
 - **Finished**
-  - [x] The language scopes generate tool.
-    - [x] ![easy] Make a general file to support most languages. See `/language_tags/`
+  - [x] The language scopes generate tool. See `/tools/`.
+    - [x] ![easy] Make a general file to support most languages. See `/language_tags/`.
 
 ## Additional install  
 
