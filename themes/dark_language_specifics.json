@@ -23,24 +23,35 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#C3E88D"
+                "foreground": "#B2CCD6"
             }
-        },
+		},
         {
             "name": "entity class",
             "scope": [
-                "entity.name.type.class",
-                "entity.other.inherited-class"
+				"entity.name.type.class",
+				"entity.other.inherited-class",
             ],
             "settings": {
                 "fontStyle": "bold",
                 "foreground": "#4EC9B0"
             }
+		},
+		{
+            "name": "entity class",
+            "scope": [
+				"support.class.promise",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#FFCB6B"
+            }
         },
         {
-            "name": "function / call",
+            "name": "function call",
             "scope": [
-                "entity.name.function",
+				"entity.name.function",
+				"support.function",
                 "meta.function-call.generic",
                 "meta.qualified_type entity.name.type",
                 "entity.name.type.parameter"
@@ -51,9 +62,11 @@
             }
         },
         {
-            "name": "Function arguments",
+            "name": "Function call arguments",
             "scope": [
-                "meta.function-call.arguments",
+				"meta.function-call.arguments",
+				"meta.object-literal.key",
+				"meta.object-literal.key string.quoted",
             ],
             "settings": {
                 "fontStyle": "",
@@ -67,7 +80,9 @@
                 "meta.declaration.type.alias",
                 "meta.declaration.type.alias meta.parens",
                 "meta.template.definition meta.qualified_type entity.name.type",
-                "meta.template.call meta.qualified_type entity.name.type"
+				"meta.template.call meta.qualified_type entity.name.type",
+				"meta.parameter.object-binding-pattern variable.parameter",
+				"meta.template.expression variable.other"
             ],
             "settings": {
                 "fontStyle": "",
@@ -106,7 +121,7 @@
             }
         },
         {
-            "name": "Markup italic ",
+            "name": "Markup italic",
             "scope": [
                 "markup.italic",
             ],
@@ -116,7 +131,7 @@
             }
         },
         {
-            "name": "Markup underline ",
+            "name": "Markup underline",
             "scope": [
                 "markup.underline.link",
             ],
@@ -141,11 +156,13 @@
             }
         },
         {
-            "name": "keyword & storage",
+            "name": "keyword & storage & name",
             "scope": [
                 "keyword.operator",
-                "keyword.other.delete",
-                "storage.modifier.pointer"
+				"keyword.other.delete",
+				"storage.modifier.pointer",
+				"entity.name.tag",
+				"entity.other.attribute-name.id"
             ],
             "settings": {
                 "fontStyle": "",
@@ -164,15 +181,41 @@
             }
         },
         {
-            "name": "Variable property",
+            "name": "Variable property name",
             "scope": [
                 "variable.other.property",
-                "variable.other.object.property"
+				"variable.other.object.property",
+				"meta.property-list",
+				"meta.property-name",
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#B2CCD6"
+                "foreground": "#C792EA"
             }
-        }
+		},
+		{
+            "name": "Variable object name",
+            "scope": [
+				"variable.other.object",
+				"variable.other.constant.object",
+				"variable.other.readwrite.alias",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#FFCB6B"
+            }
+		},
+		{
+            "name": "Variable property value",
+            "scope": [
+				"meta.property-list meta.property-value support.constant",
+				"meta.property-list meta.property-value support.function",
+				"entity.other.attribute.noreturn",
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#C792EA"
+            }
+		},
     ]
 }
