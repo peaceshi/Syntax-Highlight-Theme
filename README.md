@@ -30,10 +30,10 @@ This is theme highlight supports, **not** parsers now.
 
 ## Job schedules  
 
-|           |    1    |     2     |    3    |
-| --------- | :-----: | :-------: | :-----: |
-| Difficult | ![easy] | ![normal] | ![hard] |
-| Priority  | ![Low]  | ![Medium] | ![High] |
+|            |    1    |     2     |    3    |
+| ---------- | :-----: | :-------: | :-----: |
+| Difficulty | ![easy] | ![normal] | ![hard] |
+| Priority   | ![Low]  | ![Medium] | ![High] |
 
 [Reshaper inlay hints]:https://www.jetbrains.com/help/resharper/Inline_Parameter_Name_Hints.html
 [multiple selections]:https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
