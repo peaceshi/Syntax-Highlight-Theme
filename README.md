@@ -69,9 +69,9 @@ See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/C
 
 ## Snapshot (New)
 
-[Markdown]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/documents/markdown.md
-[C++]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/documents/cpp.cpp
-[Python]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/documents/python.py
+[Markdown]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/Documents/markdown.md
+[C++]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/Documents/cpp.cpp
+[Python]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/Documents/python.py
 
 |           [Markdown]            |
 |  :---------------------------:  |
