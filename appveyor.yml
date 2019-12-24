@@ -9,7 +9,7 @@ branches:
   only:
     - master
 
-skip_tags: true
+skip_non_tags: true
 
 init:
     - npm --version
@@ -22,4 +22,5 @@ build_script:
     - vsce package
 
 after_build:
-    - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
+    - vsce publish -p $env:VSCode-Market-Token
+    - appveyor PushArtifact *.vsix
