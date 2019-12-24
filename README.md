@@ -1,17 +1,24 @@
 # Syntax Highlight Theme
 
-[![marketplace-image]][marketplace-url] [![appveyor-image]][appveyor-url] [![GitHub-image]][GitHub-url] [![license-image]][license-url] [![Codacy Badge image]][Codacy Badge url]
+[![marketplace-image]][marketplace-url] [![appveyor-image]][appveyor-url] [![GitHub-image]][GitHub-url] [![license-image]][license-url]
+
+[![lgtm-grade-image]][lgtm-grade-url] [![Codacy Badge image]][Codacy Badge url] [![CodeFactor-image]][CodeFactor-url]
 
 [marketplace-image]:https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&logo=visual-studio-code&label=marketplace&color=007ACC
 [marketplace-url]:https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight
-[appveyor-image]:https://img.shields.io/appveyor/ci/peaceshi/syntax-highlight-theme.svg?style=flat&logo=appveyor&label=master
+[appveyor-image]:https://img.shields.io/appveyor/ci/peaceshi/syntax-highlight-theme.svg?style=flat&logo=appveyor&logoColor=FFFFFF&label=master
 [appveyor-url]:https://ci.appveyor.com/project/peaceshi/syntax-highlight-theme/
-[GitHub-image]:https://img.shields.io/badge/GitHub-issues-red.svg
+[GitHub-image]:https://img.shields.io/badge/GitHub-issues-red.svg?logo=Github
 [GitHub-url]:https://github.com/peaceshi/Syntax-highlight-Theme/issues
 [license-image]:https://img.shields.io/github/license/peaceshi/Syntax-highlight-Theme.svg
 [license-url]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/LICENSE
-[Codacy Badge image]:https://api.codacy.com/project/badge/Grade/62132740f27e405eb54e0ca6e2bf58f0
+
+[lgtm-grade-image]:https://img.shields.io/lgtm/grade/javascript/g/peaceshi/Syntax-Highlight-Theme.svg?logo=lgtm&logoWidth=20&label=LGTM%20Code%20Grade
+[lgtm-grade-url]:https://lgtm.com/projects/g/peaceshi/Syntax-Highlight-Theme/context:javascript
+[Codacy Badge image]:https://img.shields.io/codacy/grade/62132740f27e405eb54e0ca6e2bf58f0?label=CodacyGrade&logo=Codacy
 [Codacy Badge url]:https://www.codacy.com/manual/peaceshi/Syntax-Highlight-Theme?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=peaceshi/Syntax-Highlight-Theme&amp;utm_campaign=Badge_Grad
+[CodeFactor-image]:https://img.shields.io/codefactor/grade/github/peaceshi/syntax-highlight-theme/master?label=CodeFactor&logo=CodeFactor
+[CodeFactor-url]:https://www.codefactor.io/repository/github/peaceshi/syntax-highlight-theme/overview/master
 
 [hard]:https://img.shields.io/badge/-Hard-red.svg
 [normal]:https://img.shields.io/badge/-Normal-blue.svg
@@ -81,7 +88,7 @@ See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/C
 |  :---------------------------:  |
 | ![01.png](./snapshot/md_01.png) |
 |              [C++]              |
-| ![01.png](./snapshot/cpp_01.png) |
+| ![01.png](./snapshot/cpp_01.png)|
 |              [Python]           |
 | ![01.png](./snapshot/py_01.png) |
 
