@@ -3,7 +3,7 @@ import path = require("path");
 
 let set = new Set<string[]>();
 
-let readStream = (fileName: string) => {
+const readStream = (fileName: string) => {
 	let readStream = fs.createReadStream(fileName, {
 		encoding: 'utf8',
 		autoClose: true,
@@ -28,10 +28,8 @@ let dataSet = (dataSet: Set<any>) => {
 	console.log(dataSet);
 	//let array = new Array<any>();
 	dataSet.forEach(data => {
-		let scopeRootName:string = data[0];
+		const scopeRootName:string = data[0];
 		let scopeLength:number = data.length;
 		console.log("rootName:"+scopeRootName,"length:"+scopeLength);
-		
-
 	})
 }

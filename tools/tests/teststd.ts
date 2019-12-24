@@ -1,9 +1,9 @@
-import std = require("../std");
+import * as std from"../std";
 
 /**
  * testQueue 
  */
-let testQueue = (Queue: std.Queue<any>, funcname: string, wanted: string) => {
+const testQueue = (Queue: std.Queue<any>, funcname: string, wanted: string) => {
 	console.log("start testing Queue." + funcname);
 	console.log("wanted result: " + wanted);
 	if (Queue.empty()) {
@@ -18,7 +18,7 @@ let testQueue = (Queue: std.Queue<any>, funcname: string, wanted: string) => {
 /**
  * testStack
  */
-let testStack = (Stack: std.Stack<any>, funcname: string, wanted: string) => {
+const testStack = (Stack: std.Stack<any>, funcname: string, wanted: string) => {
 	console.log("start testing Stack." + funcname);
 	console.log("wanted result: " + wanted);
 	if (Stack.empty()) {
@@ -44,18 +44,18 @@ let testDeque= (Deque: std.Deque<any>, funcname: string, wanted: string) => {
 	console.log("");
 }
 
-let test2 = new std.Queue();
+const test2 = new std.Queue();
 
 
 test2.emplace(test2, 6, "f", 7, "g");
 testQueue(test2, "emplace", "6f7g");
 
 
-let test4 = new std.Stack();
+const test4 = new std.Stack();
 test4.emplace(test4, 123123, "AS",123, "bc")
 testStack(test4, "emplace", "bc 123 AS 123123");
 
-let test5 = new std.Deque();
+const test5 = new std.Deque();
 
 test5.assign(4,"s");
 testDeque(test5,"assign","s s s s");

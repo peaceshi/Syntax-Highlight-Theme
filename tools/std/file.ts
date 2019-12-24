@@ -1,6 +1,6 @@
-import fs = require("fs-extra");
-import path = require("path");
-import glob = require("glob");
+import * as fs from"fs-extra";
+import * as path from"path";
+import * as glob from"glob";
 
 const rootDir = "/../.."
 const vscodeDir = "/../vscode-master"
@@ -11,59 +11,6 @@ const vscodePath = path.normalize(rootPath.concat(vscodeDir));
 const extensionPath = vscodePath.concat(extensionDir);
 
 const pattern = extensionPath.concat("/**/syntaxes")
-
-export class file {
-	/**
-	 * rootPath
-	 * 
-	 * vscodePath
-	 * 
-	 * extensionPath
-	 */
-	public mainPath = {
-		root: rootPath,
-		vscode: vscodePath,
-		extension: extensionPath
-	}
-	/**
-	 * write scopes to file
-	 * 
-	 * @param fileName the file want to write
-	 * @param data scopes data
-	 */
-	public writeStream = (fileName: string, data: string | string[]) => {
-		let wStream = fs.createWriteStream(fileName);
-		wStream.write(data, 'UTF8');
-	}
-	protected copy(srcPath: string[] | string, destPath: string) {
-		try {
-			if (!(typeof (srcPath) == "string")) {
-				srcPath.forEach((dir: string) => {
-					fs.copy(dir, destPath);
-				});
-			} else {
-				fs.copy(srcPath, destPath);
-			}
-			console.log('success!');
-		} catch (err) {
-			console.error(err);
-		}
-	}
-	/**
-	 * fetch all files using pattern path
-	 * 
-	 * copy can not be file to dir because of fs-extra module bug.
-	 */
-	public fetchFiles() {
-		glob(pattern, (err, filePath) => {
-			if (!err) {
-				copy(filePath, mainPath.root.concat("/templates/"));
-			} else {
-				console.log(err);
-			}
-		})
-	}
-}
 
 async function pathExists(thisPath: string[] | string) {
 	if (!(typeof (thisPath) == "string")) {
