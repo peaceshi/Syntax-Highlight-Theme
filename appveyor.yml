@@ -1,9 +1,9 @@
-version: 'syntax-highlight-theme.{build}'
+version: "syntax-highlight-theme.{build}"
 
 os: Visual Studio 2017
 
 platform:
-    - x64
+  - x64
 
 branches:
   only:
@@ -12,15 +12,15 @@ branches:
 skip_non_tags: true
 
 init:
-    - npm --version
+  - npm --version
 
 install:
-    - npm update
-    - npm install -g vsce
+  - npm update
+  - npm install -g vsce
 
 build_script:
-    - vsce package
+  - vsce package
 
 after_build:
-    - vsce publish -p $env:VSCode-Market-Token
-    - appveyor PushArtifact *.vsix
+  - vsce publish -p $env:VSCode-Market-Token
+  - appveyor PushArtifact *.vsix
