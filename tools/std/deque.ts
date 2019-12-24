@@ -42,7 +42,7 @@ export class Deque<T>{
 	/**
 	 * checks whether the underlying container is empty
 	 */
-	public empty = () => this.element.length == 0;
+	public empty = () => this.element.length === 0;
 	/**
 	 * returns the number of element
 	 */
@@ -50,7 +50,7 @@ export class Deque<T>{
 	/**
 	 * clears the contents
 	 */
-	public clear = () => { this.element = [] };
+	public clear = () => { this.element = []; };
 	/**
 	 * inserts a element, zero-based
 	 */
@@ -58,7 +58,7 @@ export class Deque<T>{
 	/**
 	 * constructs element in-place 
 	 */
-	public emplace = (pos: number, ...elements: any[]) => {
+	public emplace = (pos: number, ...elements: Array<T>) => {
 		let length = this.element.length;
 		let front = this.element.slice(0, pos).concat(elements);
 		let back = this.element.slice(pos, length);
@@ -75,8 +75,8 @@ export class Deque<T>{
 	/**
 	 * constructs an element in-place at the end
 	 */
-	public emplace_back = (...elements: any[]) => {
-		elements.forEach((element) =>this.element.push(element));
+	public emplace_back = (...elements: Array<T>) => {
+		elements.forEach((element) => this.element.push(element));
 	}
 	/**
 	 * removes the last element
@@ -90,7 +90,7 @@ export class Deque<T>{
 	 * constructs an element in-place at the beginning
 	 */
 	public emplace_front = (...elements: any[]) => {
-		elements.forEach((element) => this.element.unshift(element))
+		elements.forEach((element) => this.element.unshift(element));
 	}
 	/**
 	 * removes the first element

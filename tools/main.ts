@@ -5,7 +5,7 @@ const tmFilePath = file.mainPath.root.concat("/templates/*.json");
 //const file_0 = fs.readFileSync(mainPath.rootPath.concat("/templates/cpp.tmLanguage.json"), 'utf-8');
 const timeOut: number = 1000;
 
-let parser = (tmFilePath: string) => {
+const parser = (tmFilePath: string) => {
 	return new Promise(resolve =>
 		setTimeout(() => (resolve(), JSONC.parser(tmFilePath)), timeOut)).catch(console.error);
 }

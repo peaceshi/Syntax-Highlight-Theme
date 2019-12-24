@@ -21,7 +21,7 @@ export class Stack<T>{
 	/**
 	 * checks whether the underlying container is empty
 	 */
-	public empty = () => this.element.length == 0;
+	public empty = () => this.element.length === 0;
 	/**
 	 * returns the number of element
 	 */
@@ -43,7 +43,7 @@ export class Stack<T>{
 	/**
 	 * delete all elements
 	 */
-	public clean = () => { this.element = [] };
+	public clean = () => { this.element = []; };
 	/**
 	 * swaps the contents
 	 */

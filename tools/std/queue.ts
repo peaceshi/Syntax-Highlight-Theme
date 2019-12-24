@@ -30,7 +30,7 @@ export class Queue<T>{
 	/**
 	 * checks whether the underlying container is empty
 	 */
-	public empty = () =>this.element.length == 0;
+	public empty = () => this.element.length === 0;
 	/**
 	 * returns the number of element
 	 */
@@ -52,7 +52,7 @@ export class Queue<T>{
 	/**
 	 * clears the contents
 	 */
-	public clear = () => { this.element = [] };
+	public clear = () => { this.element = [];};
 	/**
 	 * swaps the contents
 	 */

@@ -23,7 +23,7 @@ async function pathExists(thisPath: string[] | string) {
 		console.log(exists);
 	}
 }
-async function copy(srcPath: string[] | string, destPath: string) {
+let copy = async(srcPath: string[] | string, destPath: string) => {
 	try {
 		if (!(typeof (srcPath) == "string")) {
 			srcPath.forEach(async (dir: string) => {
@@ -64,7 +64,7 @@ export let writeStream = (fileName: string, data: string | string[]) => {
  * 
  * copy can not be file to dir because of fs-extra module bug.
  */
-export async function fetchFiles() {
+export const fetchFiles = async () => {
 	glob(pattern, async (err, filePath) => {
 		if (!err) {
 			await copy(filePath, mainPath.root.concat("/templates/"));
