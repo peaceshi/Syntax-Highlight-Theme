@@ -1,17 +1,19 @@
 {
-	"words": [
-		"Blockquote",
-		"Strikethrough",
-		"cpptools",
-		"demarked",
-		"deque",
-		"enummember",
-		"iosevka",
-		"markdownlint",
-		"pandoc",
-		"peaceshi",
-		"sarasa",
-		"vsce",
-		"xargs"
-	]
+    "version": "0.1",
+    "words": [
+        "Blockquote",
+        "codacy",
+        "cpptools",
+        "demarked",
+        "deque",
+        "enummember",
+        "iosevka",
+        "markdownlint",
+        "pandoc",
+        "peaceshi",
+        "sarasa",
+        "Strikethrough",
+        "vsce",
+        "xargs"
+    ]
 }
