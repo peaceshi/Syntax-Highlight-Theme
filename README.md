@@ -1,6 +1,6 @@
 # Syntax Highlight Theme
 
-[![version][marketplace-image]][marketplace-url] [![Build status][appveyor-image]][appveyor-url] [![GitHub][GitHub-image]][GitHub-url] [![license][license-image]][license-url]
+[![marketplace-image]][marketplace-url] [![appveyor-image]][appveyor-url] [![GitHub-image]][GitHub-url] [![license-image]][license-url] [![Codacy Badge image]][Codacy Badge url]
 
 [marketplace-image]:https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&logo=visual-studio-code&label=marketplace&color=007ACC
 [marketplace-url]:https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight
@@ -10,6 +10,8 @@
 [GitHub-url]:https://github.com/peaceshi/Syntax-highlight-Theme/issues
 [license-image]:https://img.shields.io/github/license/peaceshi/Syntax-highlight-Theme.svg
 [license-url]:https://github.com/peaceshi/Syntax-highlight-Theme/blob/master/LICENSE
+[Codacy Badge image]:https://api.codacy.com/project/badge/Grade/62132740f27e405eb54e0ca6e2bf58f0
+[Codacy Badge url]:https://www.codacy.com/manual/peaceshi/Syntax-Highlight-Theme?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=peaceshi/Syntax-Highlight-Theme&amp;utm_campaign=Badge_Grad
 
 [hard]:https://img.shields.io/badge/-Hard-red.svg
 [normal]:https://img.shields.io/badge/-Normal-blue.svg
