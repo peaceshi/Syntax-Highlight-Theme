@@ -31,6 +31,7 @@
             "scope": [
 				"entity.name.type.class",
 				"entity.other.inherited-class",
+				"meta.class entity.name.type.class"
             ],
             "settings": {
                 "fontStyle": "bold",
@@ -210,6 +211,7 @@
             "scope": [
 				"meta.property-list meta.property-value support.constant",
 				"meta.property-list meta.property-value support.function",
+				"support.constant.property-value",
 				"entity.other.attribute.noreturn",
             ],
             "settings": {
