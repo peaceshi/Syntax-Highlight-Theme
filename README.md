@@ -2,7 +2,7 @@
 
 [![marketplace-image]][marketplace-url] [![appveyor-image]][appveyor-url] [![GitHub-image]][GitHub-url] [![license-image]][license-url]
 
-[![lgtm-grade-image]][lgtm-grade-url] [![Codacy Badge image]][Codacy Badge url] [![CodeFactor-image]][CodeFactor-url]
+[![lgtm-grade-image]][lgtm-grade-url] [![Codacy Badge image]][Codacy Badge url] [![CodeFactor-image]][CodeFactor-url] [![GitHub Workflow Status]][GitHub Workflow Url]
 
 [marketplace-image]:https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&logo=visual-studio-code&label=marketplace&color=007ACC
 [marketplace-url]:https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight
@@ -19,6 +19,8 @@
 [Codacy Badge url]:https://www.codacy.com/manual/peaceshi/Syntax-Highlight-Theme?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=peaceshi/Syntax-Highlight-Theme&amp;utm_campaign=Badge_Grad
 [CodeFactor-image]:https://img.shields.io/codefactor/grade/github/peaceshi/syntax-highlight-theme/master?label=CodeFactor&logo=CodeFactor
 [CodeFactor-url]:https://www.codefactor.io/repository/github/peaceshi/syntax-highlight-theme/overview/master
+[GitHub Workflow Status]:https://img.shields.io/github/workflow/status/peaceshi/Syntax-Highlight-Theme/build?label=Act
+[GitHub Workflow Url]:https://github.com/peaceshi/Syntax-Highlight-Theme/actions
 
 [hard]:https://img.shields.io/badge/-Hard-red.svg
 [normal]:https://img.shields.io/badge/-Normal-blue.svg
