@@ -16,7 +16,7 @@
 [lgtm-grade-url]: https://lgtm.com/projects/g/peaceshi/Syntax-Highlight-Theme/context:javascript
 [codacy badge image]: https://img.shields.io/codacy/grade/62132740f27e405eb54e0ca6e2bf58f0?label=CodacyGrade&logo=Codacy
 [codacy badge url]: https://www.codacy.com/manual/peaceshi/Syntax-Highlight-Theme?utm_source=github.com&utm_medium=referral&utm_content=peaceshi/Syntax-Highlight-Theme&utm_campaign=Badge_Grad
-[codefactor-image]: https://img.shields.io/codefactor/grade/github/peaceshi/syntax-highlight-theme/master?label=CodeFactor&logo=CodeFactor
+[codefactor-image]: https://img.shields.io/codefactor/grade/github/peaceshi/syntax-highlight-theme/master?label=CodeFactor&logo=CodeFactor&logoColor=FFFFFF
 [codefactor-url]: https://www.codefactor.io/repository/github/peaceshi/syntax-highlight-theme/overview/master
 [github workflow status]: https://img.shields.io/github/workflow/status/peaceshi/Syntax-Highlight-Theme/build?label=Act
 [github workflow url]: https://github.com/peaceshi/Syntax-Highlight-Theme/actions
@@ -44,12 +44,12 @@ This is theme highlight supports, **not** parsers now.
 | **Difficulty** | ![easy] | ![normal] | ![hard] |
 |  **Priority**  | ![Low]  | ![Medium] | ![High] |
 
-[reshaper inlay hints]: https://www.jetbrains.com/help/resharper/Inline_Parameter_Name_Hints.html
+[inlay hints]: https://www.jetbrains.com/help/resharper/Inline_Parameter_Name_Hints.html
 [multiple selections]: https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor
 
 - **TODO**
   - [ ] Modern code IntelliSense and editor enhancement.
-    - [ ] ![hard] ![High][reshaper inlay hints].
+    - [ ] ![hard] ![High] Reshaper [inlay hints].
     - [ ] ![normal] ![Medium] Hover help in the editor for editor keyboard shortcuts and [multiple selections].
   - [ ] ![normal] ![Low] Make a tool to change theme colors more easily.
   - [ ] ![easy] ![Low] Design a new extension icon.
