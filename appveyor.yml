@@ -1,25 +1,26 @@
-version: 'syntax-highlight-theme.{build}'
+version: "syntax-highlight-theme.{build}"
 
 os: Visual Studio 2017
 
 platform:
-    - x64
-    
+  - x64
+
 branches:
   only:
     - master
 
-skip_tags: true
+skip_non_tags: true
 
 init:
-    - npm --version
+  - npm --version
 
 install:
-    - npm update
-    - npm install -g vsce 
+  - npm update
+  - npm install -g vsce
 
 build_script:
-    - vsce package
+  - vsce package
 
 after_build:
-    - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
+  - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
+  - appveyor PushArtifact *.vsix

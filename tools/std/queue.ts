@@ -1,24 +1,24 @@
 /**
  *  TypeScript standard library (C++ design)
- * 
+ *
  *  Author : PeaceShi
- * 
+ *
  *  design by C++, but code not cpp-like.
  */
 
 /**
  * std.Queue()
- * 
+ *
  * base Queue implement used Array.
  *
  * design by https://en.cppreference.com/w/cpp/container/queue
  */
-export class Queue<T>{
+export class Queue<T> {
 	protected element: T[] = null;
 	public constructor() {
 		this.element = new Array<T>();
 	}
-	
+
 	/**
 	 * access the first element
 	 */
@@ -30,7 +30,7 @@ export class Queue<T>{
 	/**
 	 * checks whether the underlying container is empty
 	 */
-	public empty = () =>this.element.length == 0;
+	public empty = () => this.element.length === 0;
 	/**
 	 * returns the number of element
 	 */
@@ -41,18 +41,21 @@ export class Queue<T>{
 	public push = (element: any) => this.element.push(element);
 	/**
 	 * removes the first element
-	 * 
+	 *
 	 * make sure it is FIFO
 	 */
 	public pop = () => this.element.shift();
 	/**
 	 * constructs element in-place at the end
 	 */
-	public emplace = (Queue: Queue<T>, ...elements: any[]) => elements.forEach((element) => Queue.push(element));
+	public emplace = (Queue: Queue<T>, ...elements: any[]) =>
+		elements.forEach(element => Queue.push(element));
 	/**
 	 * clears the contents
 	 */
-	public clear = () => { this.element = [] };
+	public clear = () => {
+		this.element = [];
+	};
 	/**
 	 * swaps the contents
 	 */

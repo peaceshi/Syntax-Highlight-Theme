@@ -1,19 +1,19 @@
 /**
  *  TypeScript standard library (C++ design)
- * 
+ *
  *  Author : PeaceShi
- * 
+ *
  *  design by C++, but code not cpp-like.
  */
 
 /**
  * std.deque()
- * 
+ *
  * double-ended queue implement used Array.
  *
  * design by https://en.cppreference.com/w/cpp/container/deque
  */
-export class Deque<T>{
+export class Deque<T> {
 	protected element: T[] = null;
 	public constructor() {
 		this.element = new Array<T>();
@@ -26,10 +26,10 @@ export class Deque<T>{
 		for (let index = 0; index < counts; index++) {
 			this.element.push(element);
 		}
-	}
+	};
 	/**
- 	* access specified element, from one
- 	*/
+	 * access specified element, from one
+	 */
 	public at = (pos: number) => this.element[pos - 1];
 	/**
 	 * access the first element
@@ -42,7 +42,7 @@ export class Deque<T>{
 	/**
 	 * checks whether the underlying container is empty
 	 */
-	public empty = () => this.element.length == 0;
+	public empty = () => this.element.length === 0;
 	/**
 	 * returns the number of element
 	 */
@@ -50,24 +50,28 @@ export class Deque<T>{
 	/**
 	 * clears the contents
 	 */
-	public clear = () => { this.element = [] };
+	public clear = () => {
+		this.element = [];
+	};
 	/**
 	 * inserts a element, zero-based
 	 */
-	public insert = (pos: number, element: any) => this.element.splice(pos, 0, element);
+	public insert = (pos: number, element: any) =>
+		this.element.splice(pos, 0, element);
 	/**
-	 * constructs element in-place 
+	 * constructs element in-place
 	 */
-	public emplace = (pos: number, ...elements: any[]) => {
+	public emplace = (pos: number, ...elements: Array<T>) => {
 		let length = this.element.length;
 		let front = this.element.slice(0, pos).concat(elements);
 		let back = this.element.slice(pos, length);
 		this.element = front.concat(back);
 	};
 	/**
-	 * erases elements from pos 
+	 * erases elements from pos
 	 */
-	public erase = (pos: number, counts?: number) => this.element.splice(pos, counts);
+	public erase = (pos: number, counts?: number) =>
+		this.element.splice(pos, counts);
 	/**
 	 * adds an element to the end
 	 */
@@ -75,9 +79,9 @@ export class Deque<T>{
 	/**
 	 * constructs an element in-place at the end
 	 */
-	public emplace_back = (...elements: any[]) => {
-		elements.forEach((element) =>this.element.push(element));
-	}
+	public emplace_back = (...elements: Array<T>) => {
+		elements.forEach(element => this.element.push(element));
+	};
 	/**
 	 * removes the last element
 	 */
@@ -90,8 +94,8 @@ export class Deque<T>{
 	 * constructs an element in-place at the beginning
 	 */
 	public emplace_front = (...elements: any[]) => {
-		elements.forEach((element) => this.element.unshift(element))
-	}
+		elements.forEach(element => this.element.unshift(element));
+	};
 	/**
 	 * removes the first element
 	 */

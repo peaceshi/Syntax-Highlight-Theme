@@ -1,9 +1,9 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es2020",
-        "noImplicitAny": true,
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es2020",
+		"noImplicitAny": true,
 		"sourceMap": false,
-		"declaration": true,
-    }
+		"declaration": true
+	}
 }

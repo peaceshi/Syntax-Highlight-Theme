@@ -1,7 +1,8 @@
 {
+	"version": "0.1",
 	"words": [
 		"Blockquote",
-		"Strikethrough",
+		"codacy",
 		"cpptools",
 		"demarked",
 		"deque",
@@ -11,6 +12,7 @@
 		"pandoc",
 		"peaceshi",
 		"sarasa",
+		"Strikethrough",
 		"vsce",
 		"xargs"
 	]
