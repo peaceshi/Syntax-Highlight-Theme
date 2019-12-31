@@ -22,5 +22,5 @@ build_script:
   - vsce package
 
 after_build:
-  - vsce publish -p $env:VSCode-Market-Token
+  - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
   - appveyor PushArtifact *.vsix

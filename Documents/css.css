@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 @charset "utf-8";
-garbagehere{}
+
 @import url('foo.css');
 @media (scan:interlace)
 {#foo .bar span:nth-child(-2n+1) span:nth-child(odd) h1:before{
