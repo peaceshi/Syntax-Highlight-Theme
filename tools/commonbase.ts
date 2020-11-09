@@ -1,7 +1,7 @@
 import * as fs from "fs-extra";
-import * as path from "path";
+import * as file from "./std/file";
 
-const set = new Set<string[]>();
+const set = new Set<any>();
 
 let dataSet = (dataSet: Set<any>) => {
 	console.log(dataSet);
@@ -13,7 +13,7 @@ let dataSet = (dataSet: Set<any>) => {
 	});
 };
 
-const readStream = (fileName: string) => {
+const readStream = (fileName: fs.PathLike) => {
 	let readStream = fs.createReadStream(fileName, {
 		encoding: "utf8",
 		autoClose: true
@@ -22,8 +22,12 @@ const readStream = (fileName: string) => {
 		for await (const chunk of readStream) {
 			chunk.split(",").forEach((element: string) => {
 				if (element.includes(".") && !element.includes(".NET")) {
-					//console.log(element);
-					set.add(element.split("."));
+					let str = element.match(/[a-z-0-9-A-Z-]+(\.[a-z-0-9-A-Z-]+)/);
+					//console.log(str[0]);
+					if (typeof str !== "string") {
+						//console.log(str[0]);
+						set.add(str[0]);
+					}
 				}
 			});
 		}
@@ -31,4 +35,5 @@ const readStream = (fileName: string) => {
 		dataSet(set);
 	})();
 };
-readStream(path.normalize(__dirname.concat("/../language_tags/scopes.txt")));
+const scopePath = file.mainPath.root.concat("/language_tags/scopes.txt");
+readStream(scopePath);

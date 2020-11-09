@@ -130,6 +130,7 @@
 				"meta.block",
 				"meta.body",
 				"meta.bracket",
+				"meta.jsx.children",
 				"meta.paragraph",
 				"meta.parens",
 				"meta.scope"

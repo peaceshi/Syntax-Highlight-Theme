@@ -12,18 +12,18 @@ const extensionPath = vscodePath.concat(extensionDir);
 
 const pattern = extensionPath.concat("/**/syntaxes");
 
-async function pathExists(thisPath: string[] | string) {
-	if (!(typeof thisPath == "string")) {
-		thisPath.forEach(async (dir: string) => {
-			const exists = await fs.pathExists(dir);
-			console.log(exists);
-		});
-	} else {
-		const exists = await fs.pathExists(thisPath);
-		console.log(exists);
-	}
-}
-let copy = async (srcPath: string[] | string, destPath: string) => {
+// async function pathExists(thisPath: string[] | string) {
+// 	if (!(typeof thisPath == "string")) {
+// 		thisPath.forEach(async (dir: string) => {
+// 			const exists = await fs.pathExists(dir);
+// 		console.log(exists);
+// 		});
+// 	} else {
+// 		const exists = await fs.pathExists(thisPath);
+// 		console.log(exists);
+// 	}
+// }
+const copy = async (srcPath: string[] | string, destPath: string) => {
 	try {
 		if (!(typeof srcPath == "string")) {
 			srcPath.forEach(async (dir: string) => {

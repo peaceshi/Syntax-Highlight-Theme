@@ -16,6 +16,14 @@ Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how
 [#ff5370]: https://img.shields.io/badge/-%23FF5370-FF5370.svg
 [#ffcb6b]: https://img.shields.io/badge/-%23FFCB6B-FFCB6B.svg
 
+## 0.0.13 - 2020-11-09
+
+### Added
+
+- set default theme to beta version.
+- (beta theme) add `meta.jsx.children` support for React and others.
+  - set highlight : `meta.jsx.children` ![#d4d4d4ff].
+
 ## 0.0.12 - 2019-12-24
 
 ### Added
