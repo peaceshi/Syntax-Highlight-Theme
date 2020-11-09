@@ -1,3 +1,4 @@
+.dependabot/**
 .github/**
 .vscode/**
 .vscode-test/**
@@ -10,4 +11,5 @@ tools/**
 .eslintrc.json
 .gitattributes
 .gitignore
+.lgtm.yml
 appveyor.yml

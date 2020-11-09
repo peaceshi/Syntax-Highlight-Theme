@@ -1,3 +1,6 @@
+/*
+ * @LastEditors: peaceshi
+ */
 import * as file from "./std/file";
 import * as JSONC from "./parser";
 
@@ -6,8 +9,10 @@ const tmFilePath = file.mainPath.root.concat("/templates/*.json");
 const timeOut: number = 1000;
 
 const parser = (tmFilePath: string) => {
-	return new Promise(resolve =>
-		setTimeout(() => (resolve(), JSONC.parser(tmFilePath)), timeOut)
+	return new Promise<void>(resolve =>
+		setTimeout(() => {
+			resolve(), JSONC.parser(tmFilePath);
+		}, timeOut)
 	).catch(console.error);
 };
 (async () => {

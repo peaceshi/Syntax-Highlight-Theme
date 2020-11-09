@@ -1,6 +1,6 @@
 {
   "name": "syntax-highlight",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "displayName": "%displayName%",
   "description": "%description%",
   "publisher": "peaceshi",
@@ -40,6 +40,7 @@
     "highlighting",
     "material",
     "peaceshi",
+    "react",
     "syntax",
     "textmate",
     "theme",
@@ -48,16 +49,16 @@
   "contributes": {
     "themes": [
       {
-        "id": "Syntax Material Dark",
-        "label": "Syntax Material Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark_material.json"
-      },
-      {
         "id": "Syntax Material Dark Level 1 (beta)",
         "label": "Syntax Material Dark Level 1 (beta)",
         "uiTheme": "vs-dark",
         "path": "./themes/dark_language_specifics.json"
+      },
+      {
+        "id": "Syntax Material Dark",
+        "label": "Syntax Material Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_material.json"
       }
     ]
   },
