@@ -14,7 +14,17 @@ Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how
 [#eeffff]: https://img.shields.io/badge/-%23EEFFFF-EEFFFF.svg
 [#f78c6c]: https://img.shields.io/badge/-%23F78C6C-F78C6C.svg
 [#ff5370]: https://img.shields.io/badge/-%23FF5370-FF5370.svg
-[#ffcb6b]: https://img.shields.io/badge/-%23FFCB6B-FFCB6B.svg
+[#4ec9b0]: https://img.shields.io/badge/-%234EC9B0-4EC9B0.svg
+[#b2ccd6]: https://img.shields.io/badge/-%23B2CCD6-B2CCD6.svg
+
+## 0.0.14 - 2020-11-10
+
+### Added
+
+- (beta theme) update vscode default highlight file.
+- (beta theme) add semantic highlight support.
+- (beta theme) set highlight : `entity.name.type.interface` ![#4EC9B0] to all interface and make sure behavioral consistency with semantic highlight.
+- (beta theme) set highlight : `variable.other.link.underline` ![#B2CCD6] to JSDoc underline link and make sure behavioral consistency with other underline link.
 
 ## 0.0.13 - 2020-11-09
 
