@@ -1,0 +1,13 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "semanticHighlighting",
+	"include": "./dark_language_specifics.json",
+	"semanticTokenColors": {
+		"variable.readonly": "#57C3D1",
+		"interface": {
+			"fontStyle": "bold",
+			"foreground": "#4EC9B0"
+		},
+		"typeParameter":"#FFCB6B"
+	}
+}
