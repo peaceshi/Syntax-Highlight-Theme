@@ -27,7 +27,8 @@
 			"scope": [
 				"entity.name.type.class",
 				"entity.other.inherited-class",
-				"meta.class entity.name.type.class"
+				"meta.class entity.name.type.class",
+				"entity.name.type.interface"
 			],
 			"settings": {
 				"fontStyle": "bold",
@@ -117,8 +118,8 @@
 			}
 		},
 		{
-			"name": "Markup underline",
-			"scope": ["markup.underline.link"],
+			"name": "Markup / JSDoc underline",
+			"scope": ["markup.underline.link","variable.other.link.underline"],
 			"settings": {
 				"fontStyle": "underline",
 				"foreground": "#B2CCD6"
