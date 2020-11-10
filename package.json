@@ -1,6 +1,6 @@
 {
   "name": "syntax-highlight",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "displayName": "%displayName%",
   "description": "%description%",
   "publisher": "peaceshi",
@@ -52,7 +52,7 @@
         "id": "Syntax Material Dark Level 1 (beta)",
         "label": "Syntax Material Dark Level 1 (beta)",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_language_specifics.json"
+        "path": "./themes/semanticHighlighting.json"
       },
       {
         "id": "Syntax Material Dark",
