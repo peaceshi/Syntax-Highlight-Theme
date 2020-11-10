@@ -28,12 +28,13 @@ after_build:
   # - mv ./*.vsix %LatestTag%.vsix
   # - appveyor PushArtifact %LatestTag%.vsix
 
-deploy:
-  - provider: GitHub
-    description: "auto build release"
-    auth_token:
-      secure: b7z/bl9MpzzCY+CYah15JF9aJbut5gtIWcpiZOoZpVc41W7NmKOOeB40RO7HiiK/
-    draft: false
-    tag: Release%LatestTag%
-    on:
-      APPVEYOR_REPO_TAG: false
+
+#deploy:
+ # - provider: GitHub
+  #  description: "auto build release"
+   # auth_token:
+    #  secure: b7z/bl9MpzzCY+CYah15JF9aJbut5gtIWcpiZOoZpVc41W7NmKOOeB40RO7HiiK/
+    #draft: false
+    #tag: Release%LatestTag%
+    #on:
+    #  APPVEYOR_REPO_TAG: false

@@ -34,6 +34,14 @@ Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how
 - (beta theme) add `meta.jsx.children` support for React and others.
   - set highlight : `meta.jsx.children` ![#d4d4d4ff].
 
+## 0.0.13 - 2020-11-09
+
+### Added
+
+- set default theme to beta version.
+- (beta theme) add `meta.jsx.children` support for React and others.
+  - set highlight : `meta.jsx.children` ![#d4d4d4ff].
+
 ## 0.0.12 - 2019-12-24
 
 ### Added
