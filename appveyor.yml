@@ -24,9 +24,9 @@ build_script:
 after_build:
   - vsce publish -p ihrya2gw77tys3mo7pjjucwovfvi35wn5xppar3yvy4i3e6p67va
 
-  - set LatestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
-  - mv ./*.vsix %LatestTag%.vsix
-  - appveyor PushArtifact %LatestTag%.vsix
+  # - set LatestTag=$(git describe --tags `git rev-list --tags --max-count=1`)
+  # - mv ./*.vsix %LatestTag%.vsix
+  # - appveyor PushArtifact %LatestTag%.vsix
 
 deploy:
   - provider: GitHub
