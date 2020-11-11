@@ -75,7 +75,7 @@
     "jsonc-parser": "^2.2.0"
   },
   "devDependencies": {
-    "@types/fs-extra": "^8.0.1",
+    "@types/fs-extra": "^9.0.4",
     "@types/glob": "^7.1.1",
     "@types/node": "^12.12.22",
     "@typescript-eslint/eslint-plugin": "^2.13.0",
