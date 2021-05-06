@@ -71,7 +71,7 @@
   ],
   "dependencies": {
     "fs-extra": "^8.1.0",
-    "glob": "^7.1.6",
+    "glob": "^7.1.7",
     "jsonc-parser": "^2.2.0"
   },
   "devDependencies": {
