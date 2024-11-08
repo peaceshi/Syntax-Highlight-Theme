@@ -1,4 +1,2 @@
 *.vsix
-.vscode/settings.json
-node_modules/**
-templates/**
+node_modules
