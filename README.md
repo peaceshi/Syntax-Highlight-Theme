@@ -1,6 +1,7 @@
 # Syntax Highlight Theme
 
 [![marketplace-image]][marketplace-url] [![appveyor-image]][appveyor-url] [![GitHub-image]][github-url] [![license-image]][license-url]
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_shield)
 
 [![Codacy Badge image]][codacy badge url] [![CodeFactor-image]][codefactor-url] [![GitHub Workflow Status]][github workflow url]
 
@@ -107,3 +108,7 @@ See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/main/CHA
 | ![05.png](./img/05.png) | ![06.png](./img/06.png) |
 |         **Lua**         |
 | ![07.png](./img/07.png) |
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_large)
