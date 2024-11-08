@@ -1,0 +1,13 @@
+comment.line.number-sign.git-commit
+invalid.deprecated.line-too-long.git-commit
+invalid.illegal.line-too-long.git-commit
+keyword.other.file-type.git-commit
+markup.changed.git-commit
+markup.deleted.git-commit
+markup.inserted.git-commit
+meta.embedded.diff.git-commit
+meta.scope.message.git-commit
+meta.scope.metadata.git-commit
+meta.scope.subject.git-commit
+source.diff
+string.unquoted.filename.git-commit

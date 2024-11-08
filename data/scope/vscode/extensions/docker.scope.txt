@@ -1,0 +1,11 @@
+comment.line.number-sign.dockerfile
+constant.character.escaped.dockerfile
+keyword.control.dockerfile
+keyword.operator.dockerfile
+keyword.other.special-method.dockerfile
+punctuation.definition.comment.dockerfile
+punctuation.definition.string.begin.dockerfile
+punctuation.definition.string.end.dockerfile
+punctuation.whitespace.comment.leading.dockerfile
+string.quoted.double.dockerfile
+string.quoted.single.dockerfile

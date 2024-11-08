@@ -1,0 +1,4 @@
+markup.math.inline.markdown
+meta.embedded.math.markdown
+punctuation.definition.math.begin.markdown
+punctuation.definition.math.end.markdown
