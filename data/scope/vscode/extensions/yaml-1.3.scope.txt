@@ -1,0 +1,6 @@
+constant.numeric.yaml-version.yaml
+keyword.other.directive.yaml.yaml
+meta.1.3.yaml
+meta.directives.yaml
+punctuation.definition.directive.begin.yaml
+punctuation.whitespace.separator.yaml
