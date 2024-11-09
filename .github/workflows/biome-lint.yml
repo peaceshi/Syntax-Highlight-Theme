@@ -3,6 +3,8 @@ name: Code quality - Biome lint
 on:
   push:
   pull_request:
+    branches:
+      - main
 
 jobs:
   quality:
