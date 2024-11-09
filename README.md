@@ -1,7 +1,6 @@
 # Syntax Highlight Theme
 
-[![marketplace-version]][marketplace-url] [![marketplace-downloads]][marketplace-url] [![Codacy Badge image]][codacy badge url] [![CodeFactor-image]][codefactor-url]
-[![appveyor-image]][appveyor-url] [![GitHub-image]][github-url] [![GitHub Workflow Status]][github workflow url] [![license-image]][license-url] [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_shield)
+[![marketplace-version]][marketplace-url] [![marketplace-downloads]][marketplace-url] [![Codacy Badge image]][codacy badge url] [![CodeFactor-image]][codefactor-url] [![license-image]][license-url] [![appveyor-image]][appveyor-url] [![GitHub-image]][github-url] [![GitHub Workflow Status]][github workflow url][![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_shield)
 
 [marketplace-version]: https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&label=Version&color=007ACC&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzI5YjZmNiIgZD0iTTQ0IDExdjI2bC0yIDMtOSA0IDEtMTFWMTVMMzMgNGw5IDQgMiAzeiIvPjxwYXRoIGZpbGw9IiMwMjc3YmQiIGQ9Im05IDM0IDI1LTE5VjVsLTItMUw1IDI5djNsMiAyaDJ6Ii8+PHBhdGggZmlsbD0iIzAyODhkMSIgZD0ibTkgMTQgMjUgMTl2MTBsLTIgMUw1IDE5di0zbDItMmgyeiIvPjwvc3ZnPg==
 
@@ -10,7 +9,7 @@
 [marketplace-url]: https://marketplace.visualstudio.com/items?itemName=peaceshi.syntax-highlight
 [appveyor-image]: https://img.shields.io/appveyor/ci/peaceshi/syntax-highlight-theme.svg?style=flat&logo=appveyor&logoColor=FFFFFF&label=main
 [appveyor-url]: https://ci.appveyor.com/project/peaceshi/syntax-highlight-theme/
-[github-image]: https://img.shields.io/badge/GitHub-issues-red.svg?logo=Github
+[github-image]: https://img.shields.io/badge/GitHub-issues-green.svg?logo=Github
 [github-url]: https://github.com/peaceshi/Syntax-highlight-Theme/issues
 [license-image]: https://img.shields.io/github/license/peaceshi/Syntax-highlight-Theme.svg
 [license-url]: https://github.com/peaceshi/Syntax-highlight-Theme/blob/main/LICENSE
@@ -18,8 +17,8 @@
 [codacy badge url]: https://app.codacy.com/gh/peaceshi/Syntax-Highlight-Theme/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
 [codefactor-image]: https://img.shields.io/codefactor/grade/github/peaceshi/syntax-highlight-theme/main?label=CodeFactor&logo=CodeFactor&logoColor=FFFFFF
 [codefactor-url]: https://www.codefactor.io/repository/github/peaceshi/syntax-highlight-theme/overview/main
-[github workflow status]: https://img.shields.io/github/workflow/status/peaceshi/Syntax-Highlight-Theme/build?logo=github&label=Actions
-[github workflow url]: https://github.com/peaceshi/Syntax-Highlight-Theme/actions
+[github workflow status]: https://img.shields.io/github/actions/workflow/status/peaceshi/Syntax-Highlight-Theme/biome-lint.yml?label=lint&logo=github
+[github workflow url]: https://img.shields.io/github/actions/workflow/status/peaceshi/Syntax-Highlight-Theme/biome-lint.yml
 [hard]: https://img.shields.io/badge/-Hard-red.svg
 [normal]: https://img.shields.io/badge/-Normal-blue.svg
 [easy]: https://img.shields.io/badge/-Easy-green.svg
