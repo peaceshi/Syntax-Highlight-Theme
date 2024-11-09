@@ -1,6 +1,8 @@
 # Syntax Highlight Theme
 
-[![marketplace-version]][marketplace-url] [![marketplace-downloads]][marketplace-url] [![Codacy Badge image]][codacy badge url] [![CodeFactor-image]][codefactor-url] [![license-image]][license-url] [![GitHub-image]][github-url] [![GitHub Workflow Status]][github workflow url] [![appveyor-image]][appveyor-url] [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_shield)
+[![marketplace-version]][marketplace-url] [![marketplace-downloads]][marketplace-url] [![GitHub-image]][github-url] [![license-image]][license-url]
+
+[![CodeFactor-image]][codefactor-url] [![Codacy Badge image]][codacy badge url] [![GitHub Workflow Status]][github workflow url] [![appveyor-image]][appveyor-url]
 
 [marketplace-version]: https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&label=Version&color=007ACC&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzI5YjZmNiIgZD0iTTQ0IDExdjI2bC0yIDMtOSA0IDEtMTFWMTVMMzMgNGw5IDQgMiAzeiIvPjxwYXRoIGZpbGw9IiMwMjc3YmQiIGQ9Im05IDM0IDI1LTE5VjVsLTItMUw1IDI5djNsMiAyaDJ6Ii8+PHBhdGggZmlsbD0iIzAyODhkMSIgZD0ibTkgMTQgMjUgMTl2MTBsLTIgMUw1IDE5di0zbDItMmgyeiIvPjwvc3ZnPg==
 
@@ -19,6 +21,7 @@
 [codefactor-url]: https://www.codefactor.io/repository/github/peaceshi/syntax-highlight-theme/overview/main
 [github workflow status]: https://img.shields.io/github/actions/workflow/status/peaceshi/Syntax-Highlight-Theme/biome-lint.yml?label=lint&logo=github
 [github workflow url]: https://github.com/peaceshi/Syntax-Highlight-Theme/actions/workflows/biome-lint.yml
+
 [hard]: https://img.shields.io/badge/-Hard-red.svg
 [normal]: https://img.shields.io/badge/-Normal-blue.svg
 [easy]: https://img.shields.io/badge/-Easy-green.svg
@@ -111,4 +114,4 @@ See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/main/CHA
 
 ## License
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_large&issueType=license)
