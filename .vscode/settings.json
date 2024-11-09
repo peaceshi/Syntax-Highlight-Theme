@@ -3,7 +3,7 @@
         "type_traits": "cpp"
     },
     "editor.codeActionsOnSave": {
-        "source.organizeImports.biome": "explicit"
+        "source.organizeImports.biome": "always"
     },
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
