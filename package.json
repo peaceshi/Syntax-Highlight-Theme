@@ -70,14 +70,19 @@
       "path": ""
     }
   ],
-  "dependencies": {},
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@tsconfig/node22": "^22.0.0",
     "@tsconfig/strictest": "^2.0.5",
     "@types/node": "^22.9.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "tsx": "^4.19.2",
     "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint-staged": "pnpm exec biome lint && pnpm exec prettier . --check"
   }
 }
