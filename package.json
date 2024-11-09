@@ -1,6 +1,6 @@
 {
   "name": "syntax-highlight",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "displayName": "%displayName%",
   "description": "%description%",
   "publisher": "peaceshi",
@@ -83,6 +83,7 @@
   },
   "scripts": {
     "prepare": "husky",
-    "lint-staged": "pnpm exec biome lint && pnpm exec prettier . --check"
+    "lint-staged": "pnpm exec biome lint && pnpm exec prettier . --check",
+    "package": "pnpx @vscode/vsce package"
   }
 }

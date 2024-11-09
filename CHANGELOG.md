@@ -17,6 +17,13 @@ Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how
 [#4ec9b0]: https://img.shields.io/badge/-%234EC9B0-4EC9B0.svg
 [#b2ccd6]: https://img.shields.io/badge/-%23B2CCD6-B2CCD6.svg
 
+## 0.0.15 - 2024-11-09
+
+### Changed
+
+- no feature update.
+- a new version is woking on the way.
+
 ## 0.0.14 - 2020-11-10
 
 ### Added
@@ -82,7 +89,7 @@ Check [Keep a Changelog](https://keepachangelog.com/) for recommendations on how
 
 ### Added
 
-- A new theme  
+- A new theme
   **Now you can choose a beta test theme `Syntax Material Dark Level 1 (beta)` directly. It supports most languages that VSCode supports now.**
 - most languages support(with beta theme).
 - A tool that generate language scopes.
