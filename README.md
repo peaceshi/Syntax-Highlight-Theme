@@ -4,6 +4,8 @@
 
 [![CodeFactor-image]][codefactor-url] [![Codacy Badge image]][codacy badge url] [![GitHub Workflow Status]][github workflow url] [![appveyor-image]][appveyor-url]
 
+[![biome]][biome-url]
+
 [marketplace-version]: https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&label=Version&color=007ACC&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzI5YjZmNiIgZD0iTTQ0IDExdjI2bC0yIDMtOSA0IDEtMTFWMTVMMzMgNGw5IDQgMiAzeiIvPjxwYXRoIGZpbGw9IiMwMjc3YmQiIGQ9Im05IDM0IDI1LTE5VjVsLTItMUw1IDI5djNsMiAyaDJ6Ii8+PHBhdGggZmlsbD0iIzAyODhkMSIgZD0ibTkgMTQgMjUgMTl2MTBsLTIgMUw1IDE5di0zbDItMmgyeiIvPjwvc3ZnPg==
 
 [marketplace-downloads]: https://img.shields.io/visual-studio-marketplace/d/peaceshi.syntax-highlight?label=Downloads&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzI5YjZmNiIgZD0iTTQ0IDExdjI2bC0yIDMtOSA0IDEtMTFWMTVMMzMgNGw5IDQgMiAzeiIvPjxwYXRoIGZpbGw9IiMwMjc3YmQiIGQ9Im05IDM0IDI1LTE5VjVsLTItMUw1IDI5djNsMiAyaDJ6Ii8+PHBhdGggZmlsbD0iIzAyODhkMSIgZD0ibTkgMTQgMjUgMTl2MTBsLTIgMUw1IDE5di0zbDItMmgyeiIvPjwvc3ZnPg==
@@ -21,6 +23,8 @@
 [codefactor-url]: https://www.codefactor.io/repository/github/peaceshi/syntax-highlight-theme/overview/main
 [github workflow status]: https://img.shields.io/github/actions/workflow/status/peaceshi/Syntax-Highlight-Theme/biome-lint.yml?label=lint&logo=github
 [github workflow url]: https://github.com/peaceshi/Syntax-Highlight-Theme/actions/workflows/biome-lint.yml
+[biome]: https://img.shields.io/badge/Linted_with-Biome-60a5fa?style=flat&logo=biome&label=Linted%20with
+[biome-url]: https://biomejs.dev
 
 [hard]: https://img.shields.io/badge/-Hard-red.svg
 [normal]: https://img.shields.io/badge/-Normal-blue.svg
