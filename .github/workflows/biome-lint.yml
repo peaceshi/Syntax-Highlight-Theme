@@ -6,6 +6,7 @@ on:
 
 jobs:
   quality:
+    name: Code quality - Biome lint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
