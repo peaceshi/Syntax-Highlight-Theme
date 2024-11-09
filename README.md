@@ -111,4 +111,5 @@ See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/main/CHA
 | ![07.png](./img/07.png) ||
 
 ## License
+
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_large)
