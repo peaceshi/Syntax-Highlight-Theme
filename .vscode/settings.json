@@ -1,5 +1,11 @@
 {
     "files.associations": {
         "type_traits": "cpp"
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports.biome": "explicit"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     }
 }
