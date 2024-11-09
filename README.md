@@ -1,7 +1,7 @@
 # Syntax Highlight Theme
 
 [![marketplace-version]][marketplace-url] [![marketplace-downloads]][marketplace-url] [![Codacy Badge image]][codacy badge url] [![CodeFactor-image]][codefactor-url]
-[![appveyor-image]][appveyor-url] [![GitHub-image]][github-url] [![GitHub Workflow Status]][github workflow url] [![license-image]][license-url]
+[![appveyor-image]][appveyor-url] [![GitHub-image]][github-url] [![GitHub Workflow Status]][github workflow url] [![license-image]][license-url] [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_shield)
 
 [marketplace-version]: https://img.shields.io/vscode-marketplace/v/peaceshi.syntax-highlight.svg?style=flat&label=Version&color=007ACC&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzI5YjZmNiIgZD0iTTQ0IDExdjI2bC0yIDMtOSA0IDEtMTFWMTVMMzMgNGw5IDQgMiAzeiIvPjxwYXRoIGZpbGw9IiMwMjc3YmQiIGQ9Im05IDM0IDI1LTE5VjVsLTItMUw1IDI5djNsMiAyaDJ6Ii8+PHBhdGggZmlsbD0iIzAyODhkMSIgZD0ibTkgMTQgMjUgMTl2MTBsLTIgMUw1IDE5di0zbDItMmgyeiIvPjwvc3ZnPg==
 
@@ -109,3 +109,6 @@ See [CHANGELOG](https://github.com/peaceshi/Syntax-highlight-Theme/blob/main/CHA
 | ![05.png](./img/05.png) | ![06.png](./img/06.png) |
 |         **Lua**         ||
 | ![07.png](./img/07.png) ||
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeaceshi%2FSyntax-Highlight-Theme?ref=badge_large)
