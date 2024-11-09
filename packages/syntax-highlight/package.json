@@ -1,0 +1,70 @@
+{
+  "name": "syntax-highlight",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "0.0.15",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Themes",
+    "Other"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Syntax Material Dark Level 1 (beta)",
+        "label": "Syntax Material Dark Level 1 (beta)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/semanticHighlighting.json"
+      },
+      {
+        "id": "Syntax Material Dark",
+        "label": "Syntax Material Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_material.json"
+      }
+    ]
+  },
+  "publisher": "peaceshi",
+  "license": "MIT",
+  "icon": "icon.png",
+  "qna": "marketplace",
+  "type": "module",
+  "author": {
+    "name": "peaceshi"
+  },
+  "galleryBanner": {
+    "color": "#1E1E1E",
+    "theme": "dark"
+  },
+  "bugs": {
+    "url": "https://github.com/peaceshi/Syntax-Highlight-Theme/issues",
+    "email": "peaceshi@outlook.com"
+  },
+  "repository": {
+    "url": "https://github.com/peaceshi/Syntax-Highlight-Theme.git",
+    "type": "git"
+  },
+  "keywords": [
+    "c++",
+    "cpp",
+    "color",
+    "colour",
+    "coloring",
+    "dark",
+    "highlight",
+    "highlighting",
+    "material",
+    "peaceshi",
+    "react",
+    "syntax",
+    "textmate",
+    "theme",
+    "themes"
+  ],
+  "scripts": {
+    "build": "pnpx @vscode/vsce package"
+  }
+}
