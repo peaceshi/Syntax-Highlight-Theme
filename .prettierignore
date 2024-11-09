@@ -1,4 +1,8 @@
 # Ignore artifacts:
 build
 coverage
+data
+docs
+themes
 *-lock.yaml
+*.md
