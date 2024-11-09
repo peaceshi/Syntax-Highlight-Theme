@@ -13,6 +13,7 @@
         "markdownlint",
         "pandoc",
         "peaceshi",
+        "pnpx",
         "sarasa",
         "Strikethrough",
         "vsce",
