@@ -1,5 +1,5 @@
-import url from "node:url";
 import path from "node:path";
+import url from "node:url";
 import { getFullPath } from "./utils.js";
 
 const __filename = url.fileURLToPath(import.meta.url);

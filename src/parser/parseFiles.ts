@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
+import { getFullPath } from "../utils.js";
 import { parseScopeToCSV } from "./parseScopeToCSV.js";
 import { parseTmToScope } from "./parseTmToScope.js";
-import { getFullPath } from "../utils.js";
 
 /**
  * Parses .tmLanguage.json files from the specified directory and converts them
