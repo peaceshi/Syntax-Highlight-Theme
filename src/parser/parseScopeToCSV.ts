@@ -11,7 +11,7 @@ const csvHeader = "id,root,name,layer,parent,children\n";
  * @param writeStream - The writable stream where the CSV data will be written.
  * @returns The next available ID after all entries have been processed.
  */
-const parseDataToCSV = async (data: string[], startId: number, writeStream: WriteStream) => {
+const parseDataToCSV = (data: string[], startId: number, writeStream: WriteStream) => {
     let currentID = startId;
     const root = data[0];
 
@@ -42,7 +42,7 @@ export const parseScopeToCSV = async (srcScopeFile: string, distCSVFile: string)
         writeStream.write(csvHeader);
 
         for await (const line of file.readLines()) {
-            id = await parseDataToCSV(parseToken(line), id, writeStream);
+            id = parseDataToCSV(parseToken(line), id, writeStream);
         }
 
         await file.close();
