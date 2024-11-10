@@ -1,27 +1,12 @@
 {
-  "name": "syntax-highlight",
-  "version": "0.0.15",
-  "displayName": "%displayName%",
-  "description": "%description%",
-  "publisher": "peaceshi",
   "license": "MIT",
-  "icon": "icon.png",
-  "qna": "marketplace",
   "author": {
     "name": "peaceshi"
   },
   "type": "module",
-  "categories": [
-    "Programming Languages",
-    "Themes",
-    "Other"
-  ],
   "engines": {
-    "vscode": "^1.43.1"
-  },
-  "galleryBanner": {
-    "color": "#1E1E1E",
-    "theme": "dark"
+    "vscode": "^1.95.0",
+    "node": "^22.9.0"
   },
   "bugs": {
     "url": "https://github.com/peaceshi/Syntax-Highlight-Theme/issues",
@@ -31,46 +16,6 @@
     "url": "https://github.com/peaceshi/Syntax-Highlight-Theme.git",
     "type": "git"
   },
-  "keywords": [
-    "c++",
-    "cpp",
-    "color",
-    "colour",
-    "coloring",
-    "dark",
-    "highlight",
-    "highlighting",
-    "material",
-    "peaceshi",
-    "react",
-    "syntax",
-    "textmate",
-    "theme",
-    "themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "id": "Syntax Material Dark Level 1 (beta)",
-        "label": "Syntax Material Dark Level 1 (beta)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/semanticHighlighting.json"
-      },
-      {
-        "id": "Syntax Material Dark",
-        "label": "Syntax Material Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark_material.json"
-      }
-    ]
-  },
-  "iconThemes": [
-    {
-      "id": "",
-      "label": "",
-      "path": ""
-    }
-  ],
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@tsconfig/node22": "^22.0.0",
