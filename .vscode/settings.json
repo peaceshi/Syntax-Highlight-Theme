@@ -1,14 +1,25 @@
 {
-    "files.associations": {
-        "type_traits": "cpp"
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
     },
     "editor.codeActionsOnSave": {
         "source.organizeImports.biome": "always"
     },
-    "[markdown]": {
-        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-    },
     "editor.formatOnSave": true,
+    "files.associations": {
+        "type_traits": "cpp"
+    },
     "files.autoSaveWhenNoErrors": true,
-    "files.autoSaveWorkspaceFilesOnly": true
+    "files.autoSaveWorkspaceFilesOnly": true,
+    "files.exclude": {
+        ".git": true
+    },
+    "git.autofetch": true,
+    "git.branchProtection": ["main"],
+    "git.branchProtectionPrompt": "alwaysCommitToNewBranch",
+    "git.branchRandomName.enable": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/out": true
+    }
 }
