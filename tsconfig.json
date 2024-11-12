@@ -1,4 +1,7 @@
 {
-    // This is an alias to @tsconfig/node20: https://github.com/tsconfig/bases
-    "extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node22/tsconfig"]
+    // This file is based on https://github.com/tsconfig
+    "extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node22/tsconfig"],
+    "compilerOptions": {
+        "outDir": "out"
+    }
 }
