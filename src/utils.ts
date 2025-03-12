@@ -1,5 +1,7 @@
+import type { WriteStream } from "node:fs";
 import fs from "node:fs/promises";
 import path from "node:path";
+import { createDisposable } from "./createDisposable.js";
 
 /**
  * Combines a directory path and a file or directory name into a full path.
@@ -28,18 +30,30 @@ export const openFileHandle = async (filePath: string, flags = "r") => {
 };
 
 /**
- * Creates a writable stream for a file located at the specified file path.
+ * Creates a writable stream for a file with automatic resource management.
  *
- * @param filePath - The path of the file to be created or opened.
- * @param flags - The flags that dictate how the file is opened (default is "w" for write).
- * @returns A writable stream for the file.
- * @throws An error if the file cannot be created or opened.
+ * Creates a file write stream that implements both Disposable and AsyncDisposable patterns
+ * for proper resource cleanup. The stream will automatically close when disposed using
+ * either `using` (synchronous) or `await using` (asynchronous) declarations.
+ *
+ * @param filePath - The path to the file to create/open
+ * @param flags - File system flags for opening the file (default: 'w')
+ * @returns A write stream instance with disposal capabilities
+ * @throws {Error} Throws if file creation or stream initialization fails
  */
 export const createFileWriteStream = async (filePath: string, flags = "w") => {
     try {
         const file = await createDirWithFileHandle(filePath, flags);
-
-        return file.createWriteStream();
+        const writeStream = file.createWriteStream();
+        return Object.assign(
+            writeStream,
+            createDisposable({
+                dispose: () => writeStream.end(),
+                asyncDispose: async () => {
+                    writeStream.end();
+                },
+            }),
+        ) as WriteStream & ReturnType<typeof createDisposable>;
     } catch (error) {
         console.error(`createFileWriteStream: '${filePath}': ${error}`);
         throw error;
@@ -104,6 +118,8 @@ export const createDirWithFileHandle = async (filePath: string, flags = "w") => 
     }
 };
 
+const regex = /"(name|contentName)":\s*"(.*?)"/g;
+
 /**
  * Parses a JSON string to extract unique scope names and content names.
  *
@@ -114,7 +130,6 @@ export const createDirWithFileHandle = async (filePath: string, flags = "w") => 
  * @returns An array of unique scope names sorted in ascending order.
  **/
 export const parseScopesFromJSON = (jsonString: string) => {
-    const regex = /"(name|contentName)":\s*"(.*?)"/g;
     const matches = new Set<string>();
     let match: RegExpExecArray | null;
 
