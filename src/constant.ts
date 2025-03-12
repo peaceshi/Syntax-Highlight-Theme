@@ -5,6 +5,8 @@ import { getFullPath } from "./utils.js";
 const __filename = url.fileURLToPath(import.meta.url);
 const vscodePath = path.normalize("vscode/extensions");
 
+export const csvHeader = "id,root,name,layer,parent,children\n";
+
 export const workspaceRoot = path.resolve(path.dirname(__filename), "..");
 export const dataRoot = getFullPath(workspaceRoot, "data");
 
