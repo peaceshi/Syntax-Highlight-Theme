@@ -1,7 +1,6 @@
 import type { WriteStream } from "node:fs";
+import { csvHeader } from "../constant.js";
 import { createFileWriteStream, openFileHandle, parseToken } from "../utils.js";
-
-const csvHeader = "id,root,name,layer,parent,children\n";
 
 /**
  * Parses an array of string data into a CSV format and writes it to a specified stream.
@@ -36,17 +35,13 @@ const parseDataToCSV = (data: string[], startId: number, writeStream: WriteStrea
 export const parseScopeToCSV = async (srcScopeFile: string, distCSVFile: string) => {
     try {
         let id = 0;
-        const file = await openFileHandle(srcScopeFile);
-        const writeStream = await createFileWriteStream(distCSVFile);
-
+        await using file = await openFileHandle(srcScopeFile);
+        await using writeStream = await createFileWriteStream(distCSVFile);
         writeStream.write(csvHeader);
 
         for await (const line of file.readLines()) {
             id = parseDataToCSV(parseToken(line), id, writeStream);
         }
-
-        await file.close();
-        writeStream.end();
     } catch (error) {
         console.error(`parseTmToScope: ${error}`);
         throw error;

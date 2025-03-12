@@ -10,10 +10,8 @@ import { createFileWriteStream, getScopesFromJSON, parseScopesFromJSON } from ".
 export const parseTmToScope = async (sourceTmFile: string, distScopeFile: string) => {
     try {
         const result = parseScopesFromJSON(await getScopesFromJSON(sourceTmFile));
-        const writeStream = await createFileWriteStream(distScopeFile);
-
+        await using writeStream = await createFileWriteStream(distScopeFile);
         writeStream.write(`${result.join("\n")}\n`);
-        writeStream.end();
     } catch (error) {
         console.error(`parseTmToScope: ${error}`);
         throw error;

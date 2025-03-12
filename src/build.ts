@@ -15,9 +15,8 @@ import { clearDir, createFileWriteStream } from "./utils.js";
 await clearDir(scopeDir);
 await clearDir(scopeCSVDir);
 
-const writeStream = await createFileWriteStream(defaultScopeFile);
+await using writeStream = await createFileWriteStream(defaultScopeFile);
 writeStream.write(`${Array.from(defaultScopes).sort().join("\n")}\n`);
-writeStream.end();
 
 await parseScopeToCSV(defaultScopeFile, defaultScopeCSVFile);
 await parseTmFilesToScopeFiles(vscodeTmLanguageDir, vscodeScopeDir);
