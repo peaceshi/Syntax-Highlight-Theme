@@ -20,18 +20,25 @@
     "@biomejs/biome": "1.9.4",
     "@tsconfig/node22": "^22.0.0",
     "@tsconfig/strictest": "^2.0.5",
-    "@types/node": "^22.9.0",
-    "husky": "^9.1.6",
+    "@types/node": "^22.13.10",
+    "husky": "^9.1.7",
     "jsonc-parser": "^3.3.1",
-    "lint-staged": "^15.2.10",
-    "prettier": "^3.3.3",
-    "tsx": "^4.19.2",
-    "typescript": "^5.6.3"
+    "lint-staged": "^15.4.3",
+    "nodejs-polars": "^0.18.0",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
   },
   "scripts": {
     "prepare": "husky",
     "lint-staged": "pnpm exec biome lint && pnpm exec prettier . --check",
     "package:create": "cd packages && pnpm --package=yo --package=generator-code dlx yo code --skip-install",
     "package:build": "pnpm --filter syntax-highlight build"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "esbuild"
+    ]
   }
 }
